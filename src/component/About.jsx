@@ -5,13 +5,13 @@ import {FaPhoneAlt,FaMailBulk,FaGithub,FaLinkedin,FaInstagram,FaTwitterSquare} f
 export default function About() {
   return (
     
-    <div className='container-fluid themeBg text-white p-3' id='About'>
+    <div className='container-fluid themeBg text-white p-3 py-lg-5' id='About'>
         <div className="row ">
             <div className="col-md-6 ">
-  
+          <img src="https://storyset.com/people" className='w-100 bg-wgite' alt="" />
                
             </div>
-            <div className='col-md-6'>
+            <div className='col-md-6 ms-4 ms-lg-0'>
                 <h1>Ankit Kumar</h1>
                 <span className='d-flex'>
                 <h3>MERN Stack Developer</h3>
@@ -42,6 +42,9 @@ export default function About() {
                 <h5 className='ms-2'>Ankitsimari</h5>
                 </span>
 
+
+
+     
             </div>
         </div>
 
