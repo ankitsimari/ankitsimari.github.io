@@ -1,7 +1,6 @@
 import HeroSection from "./component/HeroSection";
 import Navbar from "./component/Navbar";
 import "../src/App.css"
-import Projects from "./component/Projects";
 import TeckSkills from "./component/TheckSkills";
 import Project from "./component/Project";
 import SocialMedia from "./component/SocialMedia";

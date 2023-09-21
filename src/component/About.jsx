@@ -42,24 +42,6 @@ export default function About() {
                 <h5 className='ms-2'>Ankitsimari</h5>
                 </span>
 
-
-
-                {/* <span className='d-flex'>
-              <FaArrowAltCircleRight className='mt-1'/>
-                <h5 className='ms-2'>400+ DSA problem</h5>
-                </span>
-                <span className='d-flex'>
-              <FaArrowAltCircleRight className='mt-1'/>
-                <h5 className='ms-2'>1200+ hr of Coding Hands on Experience</h5>
-                </span>
-                <span className='d-flex'>
-              <FaArrowAltCircleRight className='mt-1'/>
-                <h5 className='ms-2'>3 Major projects</h5>
-                </span> */}
-             
-
-                {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolore exercitationem sapiente aliquam cum culpa illum minima consequatur eius error, animi a. Ipsum rerum commodi natus laboriosam voluptas asperiores soluta.</p> */}
-
             </div>
         </div>
 
