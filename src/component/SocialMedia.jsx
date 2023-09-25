@@ -6,13 +6,13 @@ export default function SocialMedia() {
     <div className='mainDIv h-100 '>
             <footer class="wrapper">
         <div class="icons " onClick={()=>{window.location.href="https://www.linkedin.com/in/ankit-kumar-747786235/"}}>
-            <div class="tooltip bg-primary">
+            <div class="tooltip bg-primary" id="contact-linkedin">
               LinkedIn
             </div>
             <FaLinkedinIn className=' text-primary rounded-icon'/>
         </div>
 
-        <div class="icons " onClick={()=>{window.location.href="https://github.com/ankitsimari"}}>
+        <div class="icons " id="contact-github" onClick={()=>{window.location.href="https://github.com/ankitsimari"}}>
             <div class="tooltip bg-black">
                Git
             </div>
@@ -28,7 +28,7 @@ export default function SocialMedia() {
        
         </div>
 
-        <div class="icons " onClick={()=>{window.location.href="https://github.com/ankitsimari"}}>
+        <div class="icons " id="contact-email" onClick={()=>{window.location.href="https://github.com/ankitsimari"}}>
             <div class="tooltip bg-danger">
                Email
             </div>

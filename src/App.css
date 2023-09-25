@@ -43,11 +43,6 @@ font-family: 'Poppins', sans-serif; */
 
 .themeColor {
   color: #FA8D15;
-  /* background: linear-gradient(to bottom right,#ec6301, #faab1b );
-  text-decoration: none;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 .themeBg {
@@ -84,12 +79,33 @@ font-family: 'Poppins', sans-serif; */
   width: 300px;
 }
 
+.aboutCard{
+  width: 300px;
+  margin-top: 40px;
+  transition: transform 0.3s;
+}
+
+.aboutCard:hover{
+  transform: scale(1.1, 1.1);
+}
+
+
+
+.aboutCard div{
+margin-top: -40px !important;
+width: 50px;
+height: 50px;
+background-color: #FA8D15;
+border-radius: 50%;
+display: block;
+margin: auto;
+}
 /* svg{
   margin: 40px;
   width: 150px;
 } */
 
-.skills {
+.skill {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
@@ -172,25 +188,18 @@ font-family: 'Poppins', sans-serif; */
 .projects .whiteBg {
   background-color: white;
 }
-/* 
-.projects .blue {
-  background-color: white;
-}
 
-.projects .green {
-  background-color: white;
-} */
 
 .projects .project {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: column;
-  text-align: center;
-  height: 300px;
+  /* text-align: center; */
+  height: 350px;
   width: 300px;
   border-radius: 10px;
-  color: #fa8d15;
+  /* color: #fa8d15; */
   cursor: pointer;
   transition: 400ms;
 }
@@ -242,8 +251,8 @@ font-family: 'Poppins', sans-serif; */
   transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   object-position: center;
   backdrop-filter: blur(5px);
-  height: 60px;
-  width: 60px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
   /* overflow: hidden; */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -276,7 +285,7 @@ font-family: 'Poppins', sans-serif; */
   background: #ffffff;
   color: #ffffff;
   padding: 6px 14px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   border-radius: 25px;
   opacity: 0;
@@ -295,16 +304,16 @@ font-family: 'Poppins', sans-serif; */
   pointer-events: auto;
 }
 .wrapper .icons:nth-child(1):hover .tooltip {
-  margin-right: 180px;
+  margin-right: 160px;
 }
 .wrapper .icons:nth-child(2):hover .tooltip {
-  margin-right: 130px;
+  margin-right: 110px;
 }
 .wrapper .icons:nth-child(3):hover .tooltip {
-  margin-right: 200px;
+  margin-right: 170px;
 }
 .wrapper .icons:nth-child(4):hover .tooltip {
-  margin-right: 150px;
+  margin-right: 130px;
 }
 
 .wrapper .icons:hover span {
