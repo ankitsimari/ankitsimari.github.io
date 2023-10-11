@@ -180,10 +180,17 @@ margin: auto;
   background: linear-gradient(to left, #faab1b, #f96f0e);
 }
 
+/* github */
 
-
-
-
+.github_Stats{
+  display: grid;
+  place-items: center;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+.github_Stats img{
+  width: 100%;
+}
 /* social */
 
 .mainDIv {
@@ -321,6 +328,10 @@ margin: auto;
   .card__content{
 padding: 20px 50px;
   }
+
+  .github_Stats img{
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 680px) {
   .Teachskills {
@@ -329,7 +340,9 @@ padding: 20px 50px;
     place-items: center;
     padding: 10px;
   }
-
+  .github_Stats img{
+    width: 80%;
+  }
   .projects .project {
     width: 85%;
   }
