@@ -5,6 +5,7 @@ export default function Contact() {
   return (
     <div className='container-fluid py-4 grayBg' id="contact">
 
+
           <h2 className='text-center me-lg-5'>Contact</h2>
         <div className='row py-4 '>
             <div className="col-md-6 d-flex justify-content-center align-items-center">
