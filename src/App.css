@@ -113,7 +113,7 @@ margin: auto;
   width: 150px;
 } */
 
-.skill {
+.Teachskills {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
@@ -180,75 +180,7 @@ margin: auto;
   background: linear-gradient(to left, #faab1b, #f96f0e);
 }
 
-/* Project */
 
-.project_card{
-  position: relative;
-  /* width: 350px;
-  height: 200px; */
-  /* background: linear-gradient(to left, #faab1b, #f96f0e); */
-  height: fit-content;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  padding: 0%;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-}
-
-.project_card img {
-  width: 100%;
-  height: 100%;
-  
-  fill: #333;
-  transition: all 0.6s cubic-bezier(0.11, 0.11, 0.11, 0.11);
-
-}
-
-.project_card:hover {
-  /* transform:  scale(1.1); */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card__content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  background-color: #fff;
-  opacity: 0;
-  /* transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1); */
-  transition: all 0.6s cubic-bezier(0.23, 0, 0.320, 1);
-}
-
-.project_card:hover .card__content {
-  transform: translate(-50%, -50%) rotate(0deg);
-  opacity: 1;
-}
-
-.card__title {
-  margin: 0;
-  font-size: 24px;
-  color: #333;
-  font-weight: 700;
-}
-
-.card__description {
-  margin: 10px 0 0;
-  font-size: 14px;
-  color: #777;
-  line-height: 1.4;
-}
-
-.project_card:hover img {
-  scale: 0;
-  transform: rotate(-45deg);
-}
 
 
 
@@ -380,7 +312,7 @@ margin: auto;
 
 
 @media only screen and (max-width: 1000px) {
-  .skills {
+  .Teachskills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
@@ -391,7 +323,7 @@ padding: 20px 50px;
   }
 }
 @media only screen and (max-width: 680px) {
-  .skills {
+  .Teachskills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
@@ -434,7 +366,7 @@ padding: 20px 50px;
 
 
 
-
+/* Project */
 
 /* .blog-card */
 .blog-card {
@@ -456,7 +388,7 @@ padding: 20px 50px;
 }
 
 .blog-card a:hover {
-  color: #5ad67d;
+  color: #fa8d15;
 }
 
 .blog-card:hover .photo {
@@ -552,7 +484,7 @@ padding: 20px 50px;
 }
 
 .blog-card .description .read-more a {
-  color: #5ad67d;
+  color: #fa8d15;
   display: inline-block;
   position: relative;
 }
@@ -584,8 +516,8 @@ padding: 20px 50px;
   content: "";
   position: absolute;
   height: 5px;
-  background: #5ad67d;
-  width: 35px;
+  background: #fa8d15;
+  width: 200px;
   top: -0.75rem;
   border-radius: 3px;
 }

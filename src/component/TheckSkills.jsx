@@ -16,7 +16,7 @@ export default function TeckSkills() {
       <div className="row text-center">
 <h1 className=' fs-2 fw-bold' style={{color:"#F96F0E"}}>Skills</h1>
 {/* <div style={{height:"3px",width:"200px" , border:"2px solid #F96F0E",marginTop:"20px",display:'block',margin:"auto"}}></div> */}
-    <div className=' col gap-1 column-gap-2 skill '>
+    <div className=' col gap-1 column-gap-2 Teachskills'>
 <HTML/>
 <CSS/>
 <JavaScript/>
