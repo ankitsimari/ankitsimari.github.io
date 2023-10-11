@@ -12,7 +12,7 @@ import Material_UI from '../TechStacks/Material_UI/Material_UI'
 
 export default function TeckSkills() {
   return (
-    <div className="container mt-lg-5 mt-3 mb-5 "  id="skills">
+    <div className="container mt-lg-5 mt-3 mb-5 skills-card"  id="skills">
       <div className="row text-center">
 <h1 className=' fs-2 fw-bold' style={{color:"#F96F0E"}}>Skills</h1>
 {/* <div style={{height:"3px",width:"200px" , border:"2px solid #F96F0E",marginTop:"20px",display:'block',margin:"auto"}}></div> */}
