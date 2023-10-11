@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="grayBg">
+    <div className="grayBg" id="projects">
       <h1 className="name text-center">
         My Projects
       </h1>
@@ -23,12 +23,12 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo"
-            style={{
-              backgroundImage:
-                "url(https://i.ibb.co/9Z9H2n5/doctor-Img.png)",
-            }}
+            // style={{
+            //   backgroundImage:
+            //     "url(https://i.ibb.co/9Z9H2n5/doctor-Img.png)",
+            // }}
           >
-            
+            <img className="w-100 " src="https://i.ibb.co/9Z9H2n5/doctor-Img.png" alt="" />
           </div>
         </div>
         <div className="description">
@@ -75,12 +75,14 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo "
-            style={{
-              backgroundImage:
-                "url(https://i.ibb.co/CKW8t9M/home.png)",
+            // style={{
+            //   backgroundImage:
+            //     "url(https://i.ibb.co/CKW8t9M/home.png)",
 
-            }}
-          ></div>
+            // }}
+          >
+            <img className="w-100" src="https://i.ibb.co/CKW8t9M/home.png" alt="" />
+          </div>
         </div>
         <div className="description">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >EcoFood</h1>
@@ -126,11 +128,13 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo"
-            style={{
-              backgroundImage:
-                "url(https://i.ibb.co/frz0c3G/hh.png)",
-            }}
-          ></div>
+            // style={{
+            //   backgroundImage:
+            //     "url(https://i.ibb.co/frz0c3G/hh.png)",
+            // }}
+          >
+            <img className="w-100" src="https://i.ibb.co/frz0c3G/hh.png" alt="" />
+          </div>
         </div>
         <div className="description">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >Learning Home</h1>
@@ -176,11 +180,13 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo"
-            style={{
-              backgroundImage:
-                "url(https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif)",
-            }}
-          ></div>
+            // style={{
+            //   backgroundImage:
+            //     "url(https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif)",
+            // }}
+          >
+            <img className="w-100" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="" />
+          </div>
         </div>
         <div className="description">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >In Progress</h1>

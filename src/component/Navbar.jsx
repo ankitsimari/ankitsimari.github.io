@@ -36,7 +36,7 @@ export default function () {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-bold text-black" aria-disabled="true" href="#skills">
+              <a className="nav-link skills fw-bold text-black" aria-disabled="true" href="#skills">
                 Skills
               </a>
             </li>
