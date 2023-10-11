@@ -12,7 +12,8 @@ export default function HeroSection() {
 
         <div className="col-md-5 d-flex justify-content-center my-2 my-lg-5">
           <img 
-            src={roundImg}
+            // src={roundImg}
+            src="https://i.ibb.co/4PZ4Q4q/RoundPic.png"
             className="w-100 h-100 rounded-circle posterImg home-img"
          
             alt=""
