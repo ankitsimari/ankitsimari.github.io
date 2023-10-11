@@ -17,7 +17,6 @@ const Projects = () => {
       <h1 className="name text-center">
         My Projects
       </h1>
-      <p className="text-center themeColor">A glimpse into my client-side web development work.</p>
       <br />
       <div data-aos="fade-right"
         data-aos-delay="300"
@@ -52,11 +51,6 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo "
-            // style={{
-            //   backgroundImage:
-            //     "url(https://i.ibb.co/CKW8t9M/home.png)",
-
-            // }}
           >
             <img className="h-100 w-100" src="https://i.ibb.co/CKW8t9M/home.png" alt="" />
           </div>
@@ -83,10 +77,6 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo"
-            // style={{
-            //   backgroundImage:
-            //     "url(https://i.ibb.co/frz0c3G/hh.png)",
-            // }}
           >
             <img className="h-100 w-100" src="https://i.ibb.co/frz0c3G/hh.png" alt="" />
           </div>
@@ -114,10 +104,6 @@ const Projects = () => {
         <div className="meta">
           <div
             className="photo"
-            // style={{
-            //   backgroundImage:
-            //     "url(https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif)",
-            // }}
           >
             <img className="h-100 w-100" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="" />
           </div>

@@ -12,7 +12,7 @@ export default function About() {
             <div className='col-md-11 ms-4 ms-lg-0 p-2 ps-lg-5' >
            
 
-                <p className='fw-bold text-center p-2 px-3 px-lg-5' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, sint et. Pariatur dicta, cupiditate laudantium similique adipisci numquam culpa vero mollitia quae architecto beatae sed ea aspernatur inventore vel, voluptas odit nostrum eligendi alias ut aliquid. Rerum libero officiis delectus omnis. Officia dolor voluptas impedit aut sed architecto, amet soluta ducimus facere sunt rerum ipsam porro optio? Assumenda odio numquam sunt </p>
+                <p className='fs-5 text-center p-2 px-3 px-lg-5' >Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies. Skilled in the MERN stack and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization's goal. </p>
                 <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4' >
 
                   <div className='bg-white p-3 px-5 rounded aboutCard text-center shadow' >

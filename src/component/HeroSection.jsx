@@ -31,10 +31,8 @@ export default function HeroSection() {
             I'm <span className="themeColor">Ankit Kumar</span>
           </h1>
           <h3>MERN Stack Developer</h3>
-          <p className="fs-5"  id="user-detail-intro">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Dignissimos reiciendis laborum iusto enim. Quo, vitae alias
-            exercitationem maiores sed modi.
+          <p className="fs-5 pe-lg-5"  id="user-detail-intro">
+          Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
           <Button/>
           

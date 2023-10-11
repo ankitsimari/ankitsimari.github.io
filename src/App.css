@@ -4,7 +4,7 @@ body {
    font-family: 'Darker Grotesque', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
-
+overflow-x: hidden;
 }
 
 .navbar{
