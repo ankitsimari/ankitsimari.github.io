@@ -1,10 +1,10 @@
 import React from "react";
-import roundImg from "../Image/RoundPic.png";
 import Button from "./Button";
 import SocialMedia from "./SocialMedia";
 
 export default function HeroSection() {
   return (
+    <>
     <div className="container mb-4 mb-lg-0 mt-5 " id="home">
       <div className="row d-flex flex-row-reverse">
 
@@ -34,13 +34,15 @@ export default function HeroSection() {
           <p className="fs-5 pe-lg-5"  id="user-detail-intro">
           Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
-          <span>
-          <Button />
-          </span>
+      
           
      
         </div>
       </div>
     </div>
+ 
+          <Button />
+
+    </>
   );
 }

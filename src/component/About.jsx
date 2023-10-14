@@ -1,6 +1,4 @@
 import React from 'react'
-import aboutImg from "../Image/PlaneImg1.png";
-import bot from "../Image/Poster.jpeg"
 import {FaPhoneAlt,FaMailBulk,FaGithub,FaLinkedin,FaInstagram,FaTwitterSquare, FaFacebookMessenger, FaGitAlt} from 'react-icons/fa'
 import PDF from "../Image/Ankit.pdf"
 
