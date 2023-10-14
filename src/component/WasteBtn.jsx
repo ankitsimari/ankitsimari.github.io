@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-
+import PDF from "../Image/Ankit.pdf"
 export default function WasteBtn() {
   return (
     <div>
