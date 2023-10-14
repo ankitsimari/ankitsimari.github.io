@@ -34,7 +34,7 @@ export default function HeroSection() {
           Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
           <span>
-          <Button />
+          {/* <Button /> */}
           </span>
           
      
