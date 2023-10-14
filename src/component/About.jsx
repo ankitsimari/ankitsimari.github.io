@@ -17,7 +17,7 @@ export default function About() {
                 <span className='d-flex justify-content-center'>
 
                 <div>
-      <a className='text-decoration-none' href={PDF} id="resume-link-2">
+      <a className='text-decoration-none' href={PDF} id="resume-button-2">
 
         <button className="button nav-link resume" type="button">
   <span className="button__text">Resume</span>
