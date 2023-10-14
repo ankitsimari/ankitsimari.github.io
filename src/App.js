@@ -7,6 +7,7 @@ import About from "./component/About";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import GitStats from "./component/GitStats";
+import WasteBtn from "./component/WasteBtn";
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App ">
       <Navbar/>
       <HeroSection/>
+      <WasteBtn/>
       <About/>
       <TeckSkills/>
       <Project/>
