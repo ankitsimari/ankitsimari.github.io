@@ -35,7 +35,7 @@ export default function HeroSection() {
           Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
           <div>
-      <a className='text-decoration-none' href={PDF} id="resume-button-2">
+      <a className='text-decoration-none' href={PDF} id="resume-button-1">
 
         <button className="button nav-link resume" type="button">
   <span className="button__text">Resume</span>
