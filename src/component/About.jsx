@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaPhoneAlt,FaMailBulk,FaGithub,FaLinkedin,FaInstagram,FaTwitterSquare, FaFacebookMessenger, FaGitAlt} from 'react-icons/fa'
 import PDF from "../Image/Ankit.pdf"
+import Button from './Button'
 
 export default function About() {
   return (
@@ -86,7 +87,7 @@ export default function About() {
      
             </div>
         </div>
-
+<Button/>
     </div>
   )
 }
