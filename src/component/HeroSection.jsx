@@ -34,7 +34,7 @@ export default function HeroSection() {
           <p className="fs-5 pe-lg-5"  id="user-detail-intro">
           Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
-          <Button/>
+          <Button />
           
      
         </div>
