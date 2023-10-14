@@ -4,7 +4,7 @@ import PDF from "../Image/Ankit.pdf"
 export default function WasteBtn() {
   return (
     <div>
-    <a className='text-decoration-none' href={PDF} id="resume-button-1">
+    <a className='text-decoration-none' href={PDF} id="resume-link-1">
 
       <button className="button nav-link resume" type="button">
 <span className="button__text">Resume</span>
