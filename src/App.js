@@ -16,7 +16,7 @@ function App() {
     <div className="App ">
       <Navbar/>
       <HeroSection/>
-      <WasteBtn/>
+      {/* <WasteBtn/> */}
       <About/>
       <TeckSkills/>
       <Project/>
