@@ -1,9 +1,13 @@
 import React from "react";
+import PDF from "../Image/Ankit.pdf"
 
 export default function () {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light themeBg" id="nav-menu">
+      <nav
+        className="navbar navbar-expand-lg navbar-light themeBg"
+        id="nav-menu"
+      >
         <div className="container ms-4 ms-lg-5">
           <a className="navbar-brand ms-lg-5 fw-bold fs-3 " href="#">
             Ankit
@@ -24,9 +28,13 @@ export default function () {
           className="collapse navbar-collapse  mx-5 "
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-lg-5" >
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 me-lg-5">
             <li className="nav-item">
-              <a className="nav-link home fw-bold text-black" aria-current="page" href="#">
+              <a
+                className="nav-link home fw-bold text-black"
+                aria-current="page"
+                href="#"
+              >
                 Home
               </a>
             </li>
@@ -36,23 +44,38 @@ export default function () {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link skills fw-bold text-black" aria-disabled="true" href="#skills">
+              <a
+                className="nav-link skills fw-bold text-black"
+                aria-disabled="true"
+                href="#skills"
+              >
                 Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link projects fw-bold text-black" aria-disabled="true" href="#projects">
+              <a
+                className="nav-link projects fw-bold text-black"
+                aria-disabled="true"
+                href="#projects"
+              >
                 Projects
               </a>
             </li>
-            <li className="nav-item me-lg-5">
-              <a className="nav-link contact fw-bold text-black" aria-disabled="true" href="#contact ">
+            <li className="nav-item ">
+              <a
+                className="nav-link contact fw-bold text-black"
+                aria-disabled="true"
+                href="#contact "
+              >
                 Contact
               </a>
             </li>
+            <li className="nav-item me-lg-5">
+              <a className="nav-link resume fw-bold text-black" target='_blank' href={PDF} id="resume-link-1">
+                Resume
+              </a>
+            </li>
           </ul>
-          
-
         </div>
       </nav>
     </div>
