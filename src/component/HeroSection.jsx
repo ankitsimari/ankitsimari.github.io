@@ -30,11 +30,11 @@ export default function HeroSection() {
             I'm <span className="themeColor">Ankit Kumar</span>
           </h1>
           <h3>MERN Stack Developer</h3>
-          <p className="fs-5 pe-lg-5"  id="user-detail-intro"j>
+          <p className="fs-5 pe-lg-5"  id="user-detail-intro">
           Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
           <span>
-          <Button />
+          {/* <Button /> */}
           </span>
           
      
