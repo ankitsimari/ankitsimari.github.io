@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.495b0cf9.css",
-    "main.js": "/static/js/main.cc6d9568.js",
+    "main.js": "/static/js/main.2ad9ee66.js",
     "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
     "static/media/Ankit.pdf": "/static/media/Ankit.6afd69926e000e8e4960.pdf",
     "index.html": "/index.html",
     "main.495b0cf9.css.map": "/static/css/main.495b0cf9.css.map",
-    "main.cc6d9568.js.map": "/static/js/main.cc6d9568.js.map",
+    "main.2ad9ee66.js.map": "/static/js/main.2ad9ee66.js.map",
     "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.495b0cf9.css",
-    "static/js/main.cc6d9568.js"
+    "static/js/main.2ad9ee66.js"
   ]
 }
