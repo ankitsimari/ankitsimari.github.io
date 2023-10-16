@@ -1,5 +1,5 @@
 import React from "react";
-import PDF from "../Image/Ankit.pdf"
+import PDF from "../Image/Ankit.pdf";
 
 export default function () {
   return (
