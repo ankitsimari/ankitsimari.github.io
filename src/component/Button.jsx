@@ -5,7 +5,7 @@ export default function Button() {
   // const PDF = "../Image"
   return (
 
-    <div className='nav-link resume' id="resume-button-2">
+    <div>
     <a target='_blank' className='text-decoration-none' href={PDF} >
 
       <button className="button " type="button">
