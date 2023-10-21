@@ -2,9 +2,16 @@ import React from 'react'
 import PDF from "../Image/Ankit.pdf"
 
 export default function Button() {
+  const resumedown2 = () => {
+    window.open(
+      PDF,
+      "_blank"
+      
+    );
+  };
   return (
 
-    <a target='_blank' className='text-decoration-none' href={PDF} id="resume-button-2">
+    <a target='_blank' className='text-decoration-none' onClick={resumedown2} id="resume-button-2">
     <div>
       <button className="button " type="button">
 <span className="button__text">Resume</span>
