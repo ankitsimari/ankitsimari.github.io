@@ -8,6 +8,7 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import GitStats from "./component/GitStats";
 import WasteBtn from "./component/WasteBtn";
+import BlogSlider from "./component/BlogSlider";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <About/>
       <TeckSkills/>
       <Project/>
+      {/* <BlogSlider/> */}
       <GitStats/>
       <Contact/>
       <Footer/>
