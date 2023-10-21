@@ -13,9 +13,9 @@ export default function About() {
                 <p className='fs-5 text-center p-2 px-3 px-lg-5' id="user-detail-intro">Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies. Skilled in the MERN stack and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization's goal. </p>
                 <span className='d-flex justify-content-center'>
 
-                <a className="nav-link resume fw-bold text-black btn " target='_blank' href={PDF} id="resume-button-2">
+                {/* <a className="nav-link resume fw-bold text-black btn " target='_blank' href={PDF} id="resume-button-2">
                 Resume
-              </a>
+              </a> */}
 
                 </span>
                 <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4' >
