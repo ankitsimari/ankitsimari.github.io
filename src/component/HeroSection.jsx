@@ -1,8 +1,17 @@
 import React from "react";
 import Button from "./Button";
 import SocialMedia from "./SocialMedia";
+import { Link } from "react-router-dom";
+import PDF from "../Image/Ankit.pdf"
 
 export default function HeroSection() {
+  const resumedown2 = () => {
+    window.open(
+      PDF,
+      "_blank"
+      
+    );
+  };
   return (
     <div className="container mb-4 mb-lg-0 mt-5 " id="home">
       <div className="row d-flex flex-row-reverse">
@@ -34,7 +43,19 @@ export default function HeroSection() {
           Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies.
           </p>
           <span>
-          <Button />
+          {/* <Button /> */}
+          <Link
+            className="nav-link resume"
+            to="https://drive.google.com/uc?export=download&id=1UBgt4cfEWrtO6DkeT8boJlXNJqLDL3kG"
+          >
+            <button
+              id="resume-button-2"
+              style={{ border: "none", fontWeight: "bold", fontSize: "20px" }}
+              onClick={resumedown2}
+            >
+              Resume
+            </button>
+          </Link>
           </span>
           
      
