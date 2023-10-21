@@ -1,15 +1,7 @@
 import React from "react";
 import PDF from "../Image/Ankit.pdf";
-import { Link } from "react-router-dom";
 
 export default function () {
-  const resumedown = () => {
-    window.open(
-      PDF,
-      "_blank"
-      
-    );
-  };
   return (
     <div>
       <nav
@@ -79,25 +71,9 @@ export default function () {
               </a>
             </li>
             <li className="nav-item me-lg-5">
-            <Link
-             className="nav-link resume"
-             to="https://drive.google.com/uc?export=download&id=1UBgt4cfEWrtO6DkeT8boJlXNJqLDL3kG"
-           >
-             <button
-               id="resume-button-1"
-               style={{
-                 background: "none",
-                 border: "none",
-                 fontWeight: "bold",
-                 fontSize: "16px",
-               }}
-               onClick={resumedown}
-             >
-               <i style={{ marginRight: "5px" }} className="far fa-file-alt"></i>
-               Resume
-              
-             </button>
-           </Link> 
+              <a className="nav-link resume fw-bold text-black" target='_blank' href={PDF} id="resume-button-1">
+                Resume
+              </a>
             </li>
           </ul>
         </div>
