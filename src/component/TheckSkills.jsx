@@ -7,6 +7,10 @@ import REdux from '../TechStacks/Redux/REdux'
 import TypeScript from '../TechStacks/TypeScript/TypeScript'
 import Bootstrap from '../TechStacks/Bootstrap/Bootstrap'
 import Material_UI from '../TechStacks/Material_UI/Material_UI'
+import Node from '../TechStacks/Node/Node'
+import Express from '../TechStacks/Express'
+import Mongodb from '../TechStacks/Mongodb'
+import Chart from '../TechStacks/Chart'
 
 
 
@@ -25,6 +29,10 @@ export default function TeckSkills() {
 <TypeScript/>
 <Bootstrap/>
 <Material_UI/>
+<Node/>
+<Express/>
+<Mongodb/>
+<Chart/>
     </div>
       </div>
 

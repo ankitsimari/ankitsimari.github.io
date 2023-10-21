@@ -9,8 +9,7 @@ import Footer from "./component/Footer";
 import GitStats from "./component/GitStats";
 import WasteBtn from "./component/WasteBtn";
 import BlogSlider from "./component/BlogSlider";
-import Home from "./component/marksHome";
-import MarkNavbar from "./component/marksNavbar";
+
 
 
 
