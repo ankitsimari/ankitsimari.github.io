@@ -71,7 +71,7 @@ export default function () {
               </a>
             </li>
             <li className="nav-item me-lg-5">
-              <a className="nav-link resume fw-bold text-black" target='_blank' href={PDF} id="resume-button-1">
+              <a className="nav-link resume fw-bold text-black" target='_blank' href={PDF} id="resume-link-1">
                 Resume
               </a>
             </li>
