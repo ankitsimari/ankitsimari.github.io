@@ -1,0 +1,112 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+
+
+  
+  .card1 {
+    width: 130px;
+    height: 130px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 130px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    color: #03A9F4;
+  }
+  
+
+  
+  .card2 {
+    width: 130px;
+    height: 130px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 130px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    color: #03A9F4;
+  }
+  
+
+  
+  .card3 {
+    width: 130px;
+    height: 130px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 130px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    color: green;
+  }
+  
+
+  
+  .card4 {
+    width: 130px;
+    height: 130px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 130px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+    color:#E04C5A ;
+  }
+  
+
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #478CD1;
+    color: white;
+  }
+  
+
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+    color: white;
+  }
+  
+
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: green;
+    color: white;
+  }
+  
+
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #E04C5A;
+    color: white;
+  }
+  .instagram{
+    margin-left: -20px;
+
+  }
+  /* .card4:hover .discord {
+    fill: white;
+  } */
