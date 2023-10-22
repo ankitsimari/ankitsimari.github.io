@@ -1,26 +1,48 @@
-.box_Bootstrap {
+import React from 'react'
+import styled from 'styled-components'
+
+export default function Html() {
+  return (
+    <DIV>
+    <div className='skills-card'>
+    <div className="boxCSS">
+      <div className="card_box_css">
+        <span>
+          <img
+            className="techImgCSS skills-card-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlgfzIIrB4Dpcr6tzGi50pTSfVeFs9_OvIiAu3VGyeaZRuMW-C0CrW-LbMzzfmEtCeyM&usqp=CAU"
+            alt=""
+          />
+        </span>
+      </div>
+    </div>
+        <h3  class="skills-card-name d-none">Node js</h3>
+  </div>
+    </DIV>
+  )
+}
+
+
+
+const DIV = styled.div`
+    .boxCSS {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
   }
 
- .techImg_Bootstrap  {
-  margin-top: 70px;
+ .techImgCSS  {
+  margin-top: 50px;
   margin-left: 20px;
-    width: 100%;
+    width: 120%;
   }
 
-  .card_box_Bootstrap {
-    width: 150px;
-    height: 170px;
+  .card_box_css {
+    width: 133px;
+    height: 150px;
     border-radius: 20px;
     overflow: hidden;
-    /* background: linear-gradient(
-      170deg,
-      rgba(58, 56, 56, 0.623) 0%,
-      rgb(31, 31, 31) 100%
-    ); */
     background:white;
     position: relative;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
@@ -28,27 +50,27 @@
     transition: all 0.3s;
   }
 
-  /* .card_box_Bootstrap:hover {
+  /* .card_box_css:hover {
     transform: scale(1.1);
   } */
 
-  .card_box_Bootstrap span {
+  .card_box_css span {
     position: absolute;
     /* overflow: hidden; */
     width: 150px;
     height: 150px;
-    top: -10px;
-    left: -10px;
+    top: -20px;
+    left: -20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .card_box_Bootstrap span::before {
-    content: "Bootstrap";
+  .card_box_css span::before {
+    content: "HTML";
     position: absolute;
     width: 150%;
-    height: 40px;
+    height: 33px;
     background-image: linear-gradient(
       45deg,
       #ff6547 0%,
@@ -66,7 +88,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
   }
 
-  .card_box_Bootstrap span::after {
+  .card_box_css span::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -84,3 +106,9 @@
   }
 
 
+
+
+  /* javaScript */
+
+  
+`

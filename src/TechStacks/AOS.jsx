@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function Express() {
+export default function AOS() {
   return (
     <DIV>
     <div className='skills-card'>
@@ -10,7 +10,7 @@ export default function Express() {
         <span>
           <img
             className="techImgCSS skills-card-img"
-            src="https://miro.medium.com/v2/resize:fit:1200/1*5y334csCSm6P4ISP4uYzhg.png"
+            src="https://pbs.twimg.com/profile_images/648230493171781633/HX7zV9Hn_400x400.png"
             alt=""
           />
         </span>
@@ -35,7 +35,7 @@ const DIV = styled.div`
  .techImgCSS  {
   margin-top: 50px;
   margin-left: 20px;
-    width: 120%;
+    width: 70%;
   }
 
   .card_box_css {
@@ -67,7 +67,7 @@ const DIV = styled.div`
   }
 
   .card_box_css span::before {
-    content: "Express Js";
+    content: "AOS";
     position: absolute;
     width: 150%;
     height: 33px;

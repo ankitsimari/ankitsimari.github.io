@@ -15,7 +15,7 @@ import BlogSlider from "./component/BlogSlider";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
       {/* <Home/>
       <MarkNavbar/> */}
       <Navbar/>

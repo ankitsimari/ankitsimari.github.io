@@ -1,19 +1,46 @@
-.box {
+import React from 'react'
+import styled from 'styled-components'
+
+export default function Git() {
+  return (
+    <DIV>
+    <div className='skills-card'>
+    <div className="boxCSS">
+      <div className="card_box_css">
+        <span>
+          <img
+            className="techImgCSS skills-card-img"
+            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            alt=""
+          />
+        </span>
+      </div>
+    </div>
+        <h3  class="skills-card-name d-none">Node js</h3>
+  </div>
+    </DIV>
+  )
+}
+
+
+
+const DIV = styled.div`
+    .boxCSS {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
   }
 
- .techImg  {
-  margin-top: 70px;
+ .techImgCSS  {
+  margin-top: 40px;
   margin-left: 20px;
-  width: 220px;
+    width: 70%;
   }
 
-  .card_box {
-    width: 150px;
-    height: 170px;
+  .card_box_css {
+    width: 133px;
+    height: 150px;
     border-radius: 20px;
     overflow: hidden;
     background:white;
@@ -23,27 +50,27 @@
     transition: all 0.3s;
   }
 
-  /* .card_box:hover {
+  /* .card_box_css:hover {
     transform: scale(1.1);
   } */
 
-  .card_box span {
+  .card_box_css span {
     position: absolute;
     /* overflow: hidden; */
     width: 150px;
     height: 150px;
-    top: -10px;
-    left: -10px;
+    top: -20px;
+    left: -20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .card_box span::before {
-    content: "HTML";
+  .card_box_css span::before {
+    content: "Git";
     position: absolute;
     width: 150%;
-    height: 40px;
+    height: 33px;
     background-image: linear-gradient(
       45deg,
       #ff6547 0%,
@@ -61,7 +88,7 @@
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
   }
 
-  .card_box span::after {
+  .card_box_css span::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -79,3 +106,9 @@
   }
 
 
+
+
+  /* javaScript */
+
+  
+`

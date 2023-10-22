@@ -12,8 +12,8 @@ overflow-x: hidden;
   top: 0;
   width: 100%;
   z-index: 10;
-  /* background-color: transparent;
-  backdrop-filter: blur(5px); */
+  background-color: transparent;
+  backdrop-filter: blur(5px);
   /* height: 70px; */
 }
 
@@ -115,7 +115,7 @@ margin: auto;
 
 .Teachskills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   place-items: center;
   padding: 0px 100px;
 }

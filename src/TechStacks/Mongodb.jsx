@@ -31,14 +31,14 @@ const DIV = styled.div`
   }
 
  .techImgCSS  {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: 20px;
-    width: 80%;
+    width: 70%;
   }
 
   .card_box_css {
-    width: 150px;
-    height: 170px;
+    width: 133px;
+    height: 150px;
     border-radius: 20px;
     overflow: hidden;
     background:white;
@@ -57,18 +57,18 @@ const DIV = styled.div`
     /* overflow: hidden; */
     width: 150px;
     height: 150px;
-    top: -10px;
-    left: -10px;
+    top: -20px;
+    left: -20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .card_box_css span::before {
-    content: "MongoDb";
+    content: "MongoDB";
     position: absolute;
     width: 150%;
-    height: 40px;
+    height: 33px;
     background-image: linear-gradient(
       45deg,
       #ff6547 0%,

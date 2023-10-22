@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function Node() {
+export default function Bootstrap() {
   return (
     <DIV>
     <div className='skills-card'>
@@ -10,7 +10,7 @@ export default function Node() {
         <span>
           <img
             className="techImgCSS skills-card-img"
-            src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png"
+            src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
             alt=""
           />
         </span>
@@ -23,6 +23,7 @@ export default function Node() {
 }
 
 
+
 const DIV = styled.div`
     .boxCSS {
     display: flex;
@@ -32,14 +33,14 @@ const DIV = styled.div`
   }
 
  .techImgCSS  {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: 20px;
-    width: 80%;
+    width: 70%;
   }
 
   .card_box_css {
-    width: 150px;
-    height: 170px;
+    width: 133px;
+    height: 150px;
     border-radius: 20px;
     overflow: hidden;
     background:white;
@@ -58,18 +59,18 @@ const DIV = styled.div`
     /* overflow: hidden; */
     width: 150px;
     height: 150px;
-    top: -10px;
-    left: -10px;
+    top: -20px;
+    left: -20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .card_box_css span::before {
-    content: "Node js";
+    content: "Bootstrap";
     position: absolute;
     width: 150%;
-    height: 40px;
+    height: 33px;
     background-image: linear-gradient(
       45deg,
       #ff6547 0%,
@@ -82,7 +83,7 @@ const DIV = styled.div`
     justify-content: center;
     color: #fff;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.01em;
     text-transform: uppercase;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
   }

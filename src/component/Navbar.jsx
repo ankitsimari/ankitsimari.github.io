@@ -1,16 +1,19 @@
 import React from "react";
 import PDF from "../Image/Ankit.pdf";
+import logo from "../Image/logo.png"
+import whiteLogo from "../Image/ZoomLogo.png"
 
 export default function () {
   return (
     <div>
+      {/* themeBg class in nav to add background color */}
       <nav
         className="navbar navbar-expand-lg navbar-light themeBg"
         id="nav-menu"
       >
         <div className="container ms-4 ms-lg-5">
-          <a className="navbar-brand ms-lg-5 fw-bold fs-3 " href="#">
-            Ankit
+          <a className="navbar-brand ms-lg-5 fw-bold fs-3 p-0 m-0" href="#">
+        <img style={{width:"50px",transition:"scale(7)"}} src={whiteLogo} alt="" />
           </a>
           <button
             className="navbar-toggler"
