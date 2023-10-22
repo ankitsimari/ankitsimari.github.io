@@ -20,47 +20,99 @@ class BlogSlider extends Component {
 
   render() {
     return (
-        <DIV className='m-3'>
-<div className="blog-slider">
+        <DIV className='grayBg py-3'>
+
+			{/* Medicare */}
+<div className="blog-slider my-5">
   <div className="blog-slider__wrp swiper-wrapper">
     <div className="blog-slider__item swiper-slide">
       <div className="blog-slider__img">
         
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt=""/>
+        <img className='shadow' src="https://i.ibb.co/FK6mThk/doctor-Img-fotor-20231022203134.png" alt=""/>
       </div>
       <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
+        <span className="blog-slider__code">26 August 2023</span>
+        <div className="blog-slider__title">MediCare</div>
+		<h6 className="project-tech-stack mb-4" >React | Bootstrap | Material UI</h6>
+        <div className="blog-slider__text"> MediCare is an online platform designed to simplify the process of booking appointments with doctors. Our website aims to bridge the gap between patients and healthcare providers. </div>
+		<span className='d-flex'>
+        <a href="https://github.com/ankitsimari/teal-board-7169" className="blog-slider__button me-3"><BsGithub className='fs-4 me-2'/> Github</a>
+        <a href="https://teal-board-7169-ankit-doc-web.vercel.app/" className="blog-slider__button me-3"><TbWorldShare className='fs-4 me-2'/> Link</a>
+		</span>
       </div>
     </div>
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt=""/>
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor2</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    
-    <div className="blog-slider__item swiper-slide">
-      <div className="blog-slider__img">
-        <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""/>
-      </div>
-      <div className="blog-slider__content">
-        <span className="blog-slider__code">26 December 2019</span>
-        <div className="blog-slider__title">Lorem Ipsum Dolor</div>
-        <div className="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
-        <a href="#" className="blog-slider__button">READ MORE</a>
-      </div>
-    </div>
-    
   </div>
-  <div className="blog-slider__pagination"></div>
+</div>
+
+{/* EcoFood */}
+
+
+<div className="blog-slider my-5">
+  <div className="blog-slider__wrp swiper-wrapper">
+    <div className="blog-slider__item swiper-slide">
+      <div className="blog-slider__img">
+        
+        <img src="https://i.ibb.co/ykmY4N3/Screenshot-2023-10-22-204325-fotor-20231022204413.png" alt=""/>
+      </div>
+      <div className="blog-slider__content">
+        <span className="blog-slider__code">September 2023</span>
+        <div className="blog-slider__title">EcoFood</div>
+		<h6 className="project-tech-stack mb-4" >React | Redux | Material UI</h6>
+        <div className="blog-slider__text">  Welcome to the EcoFood Fresh Food Website! eco-friendly food delivery solution. We connect food lovers with sustainable, delicious meals and grocery. </div>
+		<span className='d-flex'>
+        <a href="https://github.com/ankitsimari/sleek-circle-8356" className="blog-slider__button me-3"><BsGithub className='fs-4 me-2'/> Github</a>
+        <a href="https://ecofoodankit.vercel.app/" className="blog-slider__button me-3"><TbWorldShare className='fs-4 me-2'/> Link</a>
+		</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{/* Learning Home */}
+
+<div className="blog-slider my-5">
+  <div className="blog-slider__wrp swiper-wrapper">
+    <div className="blog-slider__item swiper-slide">
+      <div className="blog-slider__img">
+        
+        <img src="https://i.ibb.co/4sf7bj9/hh-fotor-20231022205332.png" alt=""/>
+      </div>
+      <div className="blog-slider__content">
+        <span className="blog-slider__code">June 2023</span>
+        <div className="blog-slider__title">Learning Home</div>
+		<h6 className="project-tech-stack mb-4" >HTML | CSS | JavaScript</h6>
+        <div className="blog-slider__text"> Welcome to Learning Home, your online education hub. We provide a convenient and enriching e-learning experience. </div>
+		<span className='d-flex'>
+        <a href="https://github.com/ankitsimari/spiffy-pail-5202" className="blog-slider__button me-3"><BsGithub className='fs-4 me-2'/> Github</a>
+        <a href="https://ankitkumarsimri.netlify.app/" className="blog-slider__button me-3"><TbWorldShare className='fs-4 me-2'/> Link</a>
+		</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+{/*  */}
+
+<div className="blog-slider my-5">
+  <div className="blog-slider__wrp swiper-wrapper">
+    <div className="blog-slider__item swiper-slide">
+      <div className="blog-slider__img">
+        
+        <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt=""/>
+      </div>
+      <div className="blog-slider__content">
+        <span className="blog-slider__code">October 2023</span>
+        <div className="blog-slider__title">In Progress</div>
+		<h6 className="project-tech-stack mb-4" >... | ... | ...</h6>
+        <div className="blog-slider__text">Stay tuned for my upcoming ventures, set to revolutionize with state-of-the-art technology. Keep an eye out for the latest updates and innovations. </div>
+		<span className='d-flex'>
+        <a href="https://github.com/ankitsimari/teal-board-7169" className="blog-slider__button me-3"><BsGithub className='fs-4 me-2'/> Github</a>
+        <a href="https://teal-board-7169-ankit-doc-web.vercel.app/" className="blog-slider__button me-3"><TbWorldShare className='fs-4 me-2'/> Link</a>
+		</span>
+      </div>
+    </div>
+  </div>
 </div>
       </DIV>
     );
@@ -77,10 +129,10 @@ const DIV = styled.div`
 }
  body {
 	 background-color: #ffe53b;
-	 background-image: linear-gradient(147deg, #ffe53b 0%, #fd3838 74%);
+	 /* background-image: linear-gradient(147deg, #ffe53b 0%, #fd3838 74%); */
 	 min-height: 100vh;
-	 font-family: 'Fira Sans', sans-serif;
 	 display: flex;
+	 font-family: 'Fira Sans', sans-serif;
 }
  .blog-slider {
 	 width: 95%;
@@ -89,7 +141,7 @@ const DIV = styled.div`
 	 margin: auto;
 	 background: #fff;
 	 box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-	 padding: 25px;
+	 padding: 25px ;
 	 border-radius: 25px;
 	 height: 400px;
 	 transition: all 0.3s;
@@ -175,10 +227,11 @@ const DIV = styled.div`
 	 transition-delay: 1.7s;
 }
  .blog-slider__img {
+	margin-top: 10px;
 	 width: 300px;
 	 flex-shrink: 0;
 	 height: 300px;
-	 background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+	 /* background-image: linear-gradient(to left, #faab1b, #f96f0e); */
 	 box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
 	 border-radius: 20px;
 	 transform: translateX(-80px);
@@ -191,7 +244,7 @@ const DIV = styled.div`
 	 left: 0;
 	 width: 100%;
 	 height: 100%;
-	 background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+	 /* background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%); */
 	 border-radius: 20px;
 	 opacity: 0.8;
 }
@@ -250,7 +303,7 @@ const DIV = styled.div`
 	 font-size: 24px;
 	 font-weight: 700;
 	 color: #0d0925;
-	 margin-bottom: 20px;
+	 /* margin-bottom: 20px; */
 }
  .blog-slider__text {
 	 color: #4e4a67;
@@ -259,8 +312,8 @@ const DIV = styled.div`
 }
  .blog-slider__button {
 	 display: inline-flex;
-	 background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-	 padding: 15px 35px;
+	 background-image: linear-gradient(to left, #faab1b, #f96f0e);
+	 padding: 10px 20px;
 	 border-radius: 50px;
 	 color: #fff;
 	 box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
