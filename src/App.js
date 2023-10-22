@@ -7,8 +7,7 @@ import About from "./component/About";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import GitStats from "./component/GitStats";
-import WasteBtn from "./component/WasteBtn";
-import BlogSlider from "./component/BlogSlider";
+import SoftSkills from "./component/SoftSkills";
 
 
 
@@ -22,6 +21,7 @@ function App() {
       <HeroSection/>
       <About/>
       <TeckSkills/>
+  <SoftSkills/>
       <Project/>
       {/* <BlogSlider/> */}
       <GitStats/>

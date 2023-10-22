@@ -14,8 +14,8 @@ const Projects = () => {
   return (
     <div id="projects">
     <div className="grayBg p-4" >
-      <h1 className="name text-center">
-        My Projects
+      <h1 className="name text-center fs-2 fw-bold">
+        My <span className="themeColor">Projects</span>
       </h1>
       <br />
       <div data-aos="fade-right"
