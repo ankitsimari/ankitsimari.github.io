@@ -14,6 +14,7 @@ import Hero from "./component/Hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import NewFooter from "./component/NewFooter";
 
 function App() {
 
@@ -40,7 +41,8 @@ console.log(state)
       {/* <NewProjects/> */}
       <GitStats />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
+      <NewFooter/>
     </div>
   );
 }
