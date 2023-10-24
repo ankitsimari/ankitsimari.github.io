@@ -9,11 +9,20 @@ import Footer from "./component/Footer";
 import GitStats from "./component/GitStats";
 import SoftSkills from "./component/SoftSkills";
 import NewProjects from "./component/NewProjects";
+import { useState } from "react";
 
 function App() {
+
+  const [state,setState]= useState(false);
+
+  const handleChange = ()=>{
+    setState(!state)
+  }
+console.log(state)
+  // style={{backgroundColor:"rgb(244, 244, 244)"}}
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App " style={{backgroundColor:state?"rgb(244, 244, 244)":"black",color:state?"":"white"}} >
+      <Navbar handleChange={handleChange} />
       <HeroSection />
       <About />
       <TeckSkills />

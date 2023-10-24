@@ -5,7 +5,7 @@ import PDF from "../Image/Ankit.pdf"
 export default function About() {
   return (
     
-    <div className='about section container-fluid  p-3  py-lg-5 grayBg' id="about">
+    <div className='about section container-fluid  p-3  py-lg-3 ' id="about">
         <div className="row justify-content-center">
           <h2 className='text-center fs-2 fw-bold' id="user-detail-name">About <span className='themeColor'>Me</span></h2>
             <div className='col-md-11 ms-4 ms-lg-0 p-2 ps-lg-5' >
@@ -18,7 +18,7 @@ export default function About() {
               </a> */}
 
                 </span>
-                <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4' >
+                <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4 text-black' >
 
                   <div className='bg-white p-3 px-5 rounded aboutCard text-center shadow' >
                     <span className='text-center rounded-circle'>

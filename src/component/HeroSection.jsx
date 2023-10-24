@@ -4,8 +4,8 @@ import SocialMedia from "./SocialMedia";
 
 export default function HeroSection() {
   return (
-    <div className="container mb-4 mb-lg-0 mt-5  " id="home">
-      <div className="row d-flex flex-row-reverse">
+    <div className="container mb-lg-0 pt-4" id="home">
+      <div className="row d-flex flex-row-reverse ">
 
 
 

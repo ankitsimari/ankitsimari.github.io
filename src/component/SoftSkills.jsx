@@ -42,7 +42,7 @@ export default function SoftSkills() {
       <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
     </div>
   </div>
-  <div class="card-top">
+  {/* <div class="card-top">
     <div class="card-image">
       <img src='https://secure.caes.uga.edu/extension/publications/images/thumbnail-pub-images/C1042-social-Preview-Image.png'/>
     </div>
@@ -86,17 +86,17 @@ export default function SoftSkills() {
     <h5 className='fw-bold'>Self-Motivated</h5>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-  </div>
-  <div class="card-top">
+  </div> */}
+  <div class="card-left">
     <div class="card-image">
-      <img src='https://document360.com/wp-content/uploads/2020/11/Software_documentation-Document360-1200x683.jpg'/>
+      <img src='https://apolloafterschool.com/wp-content/uploads/2022/09/developing-critical-thinking-skills-in-kids.png'/>
     </div>
     <div class="card-text">
-    <h5 className='fw-bold'>Documentation</h5>
+    <h5 className='fw-bold'>Critical Thinking</h5>
       <p>Integer lacinia sollicitudin massa. Cras metus.</p>
     </div>
   </div>
-  <div class="card-left">
+  {/* <div class="card-left">
     <div class="card-image">
       <img src='https://apolloafterschool.com/wp-content/uploads/2022/09/developing-critical-thinking-skills-in-kids.png'/>
     </div>
@@ -158,7 +158,7 @@ export default function SoftSkills() {
     <h5 className='fw-bold'>Presentation Skill</h5>
       <p>Ut eu diam at pede suscipit sodales.</p>
     </div>
-  </div>
+  </div> */}
 </div>
 
     </DIV>
@@ -191,6 +191,7 @@ const DIV = styled.div`
 	 width: 100%;
 	 border-radius: 95.2380952381px;
 	 box-shadow: 0px 3px 9px 1px rgba(0, 10, 20, 0.2);
+   border: 1px solid gray;
 }
  .card-top {
 	 flex-direction: column;

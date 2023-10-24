@@ -12,8 +12,8 @@ const Projects = () => {
   }, []);
 
   return (
-    <div id="projects">
-    <div className="grayBg p-4" >
+    <div id="projects ">
+    <div className=" p-4" >
       <h1 className="name text-center fs-2 fw-bold">
         My <span className="themeColor">Projects</span>
       </h1>
@@ -28,7 +28,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://i.ibb.co/9Z9H2n5/doctor-Img.png" alt="" />
           </div>
         </div>
-        <div className="description">
+        <div className="description text-black">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >MediCare</h1>
           <h2 className="project-tech-stack" >React | Bootstrap | Material UI</h2>
           <p className="project-description" >
@@ -37,10 +37,10 @@ const Projects = () => {
           </p>
           <p className="read-more">
             <a className="project-deployed-link" href="https://teal-board-7169-ankit-doc-web.vercel.app/" target="_blank">
-          <TbWorldShare className="fs-3"/>
+          <TbWorldShare className="fs-2"/>
             </a>
             <a className="project-github-link" href="https://github.com/ankitsimari/teal-board-7169" target="_blank">
-          <BsGithub className="fs-3"/>
+          <BsGithub className="fs-2"/>
             </a>
           </p>
         </div>
@@ -55,7 +55,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://i.ibb.co/CKW8t9M/home.png" alt="" />
           </div>
         </div>
-        <div className="description">
+        <div className="description text-black">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >EcoFood</h1>
           <h2 className="project-tech-stack">React | Redux | Material UI</h2>
           <p  className="project-description">
@@ -63,10 +63,10 @@ const Projects = () => {
           </p>
           <p className="read-more">
             <a className="project-deployed-link" href="https://ecofoodankit.vercel.app/" target="_blank" >
-            <TbWorldShare className="fs-3"/>
+            <TbWorldShare className="fs-2"/>
             </a>
             <a className="project-github-link" href="https://github.com/ankitsimari/sleek-circle-8356" target="_blank">
-            <BsGithub className="fs-3"/>
+            <BsGithub className="fs-2"/>
             </a>
           </p>
         </div>
@@ -81,7 +81,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://i.ibb.co/frz0c3G/hh.png" alt="" />
           </div>
         </div>
-        <div className="description">
+        <div className="description text-black">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >Learning Home</h1>
           <h2 className="project-tech-stack">HTML | CSS | JavaScript</h2>
           <p className="project-description">
@@ -90,10 +90,10 @@ const Projects = () => {
           </p>
           <p className="read-more">
             <a className="project-deployed-link" href="https://ankitkumarsimri.netlify.app/" target="_blank">
-            <TbWorldShare className="fs-3"/>
+            <TbWorldShare className="fs-2"/>
             </a>
             <a className="project-github-link" href="https://github.com/ankitsimari/spiffy-pail-5202" target="_blank">
-            <BsGithub className="fs-3"/>
+            <BsGithub className="fs-2"/>
             </a>
           </p>
         </div>
@@ -108,7 +108,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="" />
           </div>
         </div>
-        <div className="description">
+        <div className="description text-black">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >In Progress</h1>
           <h2 className="project-tech-stack">... | ... | ...</h2>
           <p className="project-description">
@@ -116,10 +116,10 @@ const Projects = () => {
           </p>
           <p className="read-more">
             <a className="project-deployed-link" href="#" target="_blank" >
-            <TbWorldShare className="fs-3"/>
+            <TbWorldShare className="fs-2"/>
             </a>
             <a className="project-github-link" href="#" target="_blank">
-            <BsGithub className="fs-3"/>
+            <BsGithub className="fs-2"/>
             </a>
           </p>
         </div>

@@ -74,7 +74,7 @@ export default function Contact() {
 
 
   return (
-    <div className="container-fluid py-4 grayBg" id="contact">
+    <div className="container-fluid py-4 " id="contact">
       <h2 className="text-center me-lg-5 fs-2 fw-bold">Contact <span className="themeColor">Me</span> </h2>
       <div className="row py-4 ">
         <div className="col-md-6 d-flex justify-content-center align-items-center">

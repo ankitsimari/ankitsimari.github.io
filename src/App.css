@@ -9,7 +9,7 @@ overflow-x: hidden;
 
 .navbar{
   position: fixed;
-  top: 0;
+  top: 10;
   width: 100%;
   z-index: 10;
   background-color: transparent;
@@ -500,9 +500,11 @@ padding: 20px 50px;
   color: #fa8d15;
   display: inline-block;
   position: relative;
+  padding: 3px;
+  /* font-size: large; */
 }
 
-.blog-card .description .read-more a:after {
+/* .blog-card .description .read-more a:after {
   content: "\f061";
   font-family: FontAwesome;
   margin-left: -10px;
@@ -514,7 +516,7 @@ padding: 20px 50px;
 .blog-card .description .read-more a:hover:after {
   margin-left: 5px;
   opacity: 1;
-}
+} */
 
 .blog-card p {
   position: relative;
