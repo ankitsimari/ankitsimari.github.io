@@ -4,8 +4,8 @@ export default function GitStats() {
   return (
     <div className='container p-4'>
         <div className="row gap-3">
-          <div className='col-md-11 github_Stats react-activity-calendar' data-aos="fade-up" style={{minHeight:"160px"}}>
-<img className='' src="https://ghchart.rshah.org/ankitsimari" alt="" />
+          <div className='col-md-12 github_Stats react-activity-calendar' data-aos="fade-up" style={{minHeight:"160px"}}>
+<img className='img-fluid h-100' src="https://ghchart.rshah.org/ankitsimari" alt="" />
           </div>
           <div className="col-md-4 github_Stats " data-aos="fade-up">
             <img  id='github-streak-stats' src="https://github-readme-streak-stats.herokuapp.com?user=ankitsimari" alt="" />

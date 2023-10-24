@@ -9,7 +9,7 @@ export default function HeroSection() {
 
 
 
-        <div className="col-md-5 d-flex justify-content-center my-2 my-lg-5">
+        <div className="col-md-5 d-flex justify-content-center my-2 my-lg-5" data-aos="fade-up">
           <img 
             // src={roundImg}
             src="https://i.ibb.co/4PZ4Q4q/RoundPic.png"
@@ -19,12 +19,12 @@ export default function HeroSection() {
           />
         </div>
 
-<div className="col-md-1 mt-4 mt-lg-0">
+<div className="col-md-1 mt-4 mt-lg-0" data-aos="fade-up">
 <SocialMedia/>
 </div>
         
 
-        <div className="col-md-6 ps-5 mt-lg-5 pt-lg-3">
+        <div className="col-md-6 ps-5 mt-lg-5 pt-lg-3" data-aos="fade-up">
           <h3 className="heroTitle ">Hi There! 👋  </h3>
           <h1 id="user-detail-name">
             I'm <span className="themeColor">Ankit Kumar</span>

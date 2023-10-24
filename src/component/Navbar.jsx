@@ -93,7 +93,7 @@ export default function ({handleChange}) {
               </a>
             </li>
             <li className="nav-item me-lg-5">
-              <a className="nav-link resume fw-bold themeColor" target='_blank' href={PDF} id="resume-button-1">
+              <a className="nav-link resume fw-bold themeColor" target='_blank' href={PDF} id="resume-button-1"> 
                 Resume
               </a>
             </li>

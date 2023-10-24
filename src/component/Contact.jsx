@@ -2,6 +2,8 @@ import React, { useEffect, useReducer, useState } from "react";
 import RoundedContact from "../Rounded/RoundedContact";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from 'sweetalert2';
+
 
 const initialData = {
   name: "",
@@ -53,7 +55,13 @@ export default function Contact() {
         type:"reset"
       })
 
-      setSend(true)
+      setSend(true);
+      Swal.fire({
+        title: 'Message Sent',
+        text: 'Your message sent to Ankit Kumar Successfully',
+        icon: 'success', 
+        confirmButtonColor: '#FA8D15'
+      });
   };
 
   const handleInput = (e) => {
@@ -85,36 +93,36 @@ export default function Contact() {
             <h3 className="text-center text-lg-start mb-4">Connect with me</h3>
             <input
               name="name"
-              className="form-control my-2 my-lg-3 rounded-0 w-75 d-block m-auto m-lg-0"
+              className="form-control my-2 my-lg-3 rounded-0 w-75 d-block m-auto m-lg-0 bg-transparent"
               type="text"
               placeholder="Full Name" onChange={handleInput} value={state.name} required
             />
 
             <input
               name="email"
-              className="form-control my-2 my-lg-3  rounded-0 w-75 d-block m-auto m-lg-0"
+              className="form-control my-2 my-lg-3  rounded-0 w-75 d-block m-auto m-lg-0 bg-transparent"
               type="email" 
               placeholder="Email" onChange={handleInput} value={state.email} required
             />
 
             <input
               name="number"
-              className="form-control my-2 my-lg-3  rounded-0 w-75 d-block m-auto m-lg-0"
+              className="form-control my-2 my-lg-3  rounded-0 w-75 d-block m-auto m-lg-0 bg-transparent"
               type="number"
               placeholder="Contact Number" onChange={handleInput} value={state.number} required
             />
 
             <textarea
                  name="message"
-              className="form-control my-2 my-lg-3  rounded-0 w-75 d-block m-auto m-lg-0"
+              className="form-control my-2 my-lg-3  rounded-0 w-75 d-block m-auto m-lg-0 bg-transparent"
               type="text"
-              placeholder="" onChange={handleInput} value={state.message} required
+              placeholder="Message" onChange={handleInput} value={state.message} required
             />
           <button
             type="submit"
             className="btn rounded-0 d-block m-auto m-lg-0" disabled={send}
           >
-            Send Message
+            {send?"Your msg is sent":"Send Message"}
           </button>
           </form>
         </div>

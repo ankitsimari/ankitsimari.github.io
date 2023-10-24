@@ -17,9 +17,9 @@ export default function About() {
               </a> */}
 
                 </span>
-                <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4 text-black' >
+                <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4' >
 
-                  <div className='bg-white p-3 px-5 rounded aboutCard text-center shadow' data-aos="fade-up">
+                  <div className='bg-transparent border p-3 px-5 rounded aboutCard text-center shadow' data-aos="fade-up">
                     <span className='text-center rounded-circle'>
                      <div>
                      <FaPhoneAlt className='mt-3 text-white'/>
@@ -36,7 +36,7 @@ export default function About() {
                   </div>
 
 
-                  <div className='bg-white p-3 px-5 rounded aboutCard shadow' data-aos="fade-up">
+                  <div className='bg-transparent border p-3 px-5 rounded aboutCard shadow' data-aos="fade-up">
                   <span className='text-center rounded-circle'>
                      <div>
                      <FaGitAlt className='mt-2 pt-1 fs-3 w-1 text-white'/>
@@ -53,7 +53,7 @@ export default function About() {
                   </div>
 
 
-                  <div className='bg-white p-3 px-5 rounded aboutCard shadow' data-aos="fade-up">
+                  <div className='bg-transparent border p-3 px-5 rounded aboutCard shadow' data-aos="fade-up">
                   <span className='text-center rounded-circle'>
                      <div>
                      <FaFacebookMessenger className='mt-3 fs-5 text-white'/>

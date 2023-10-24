@@ -8,57 +8,57 @@ export default function SoftSkills() {
         <div class="container mt-3 mb-5">
 
 
-  <div class="card-left" data-aos="fade-up">
+  <div class="card-left border" data-aos="fade-up">
     <div class="card-image">
       <img src='https://kissflow.com/hubfs/What-is-Collaboration-768x407.jpg'/>
     </div>
     <div class="card-text">
         <h5 className='fw-bold'>Teamwork</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Contributed in 4+ Collaborative Projects</p>
     </div>
   </div>
 
 
-  <div class="card-top" data-aos="fade-up">
+  <div class="card-top border" data-aos="fade-up">
     <div class="card-image">
       <img src='https://theincmagazine.com/wp-content/uploads/2021/10/practicing_the_art_of_leadership-header.png'/>
     </div>
     <div class="card-text">
     <h5 className='fw-bold'>Leadership</h5>
-      <p>Quisque cursus, metus vitae pharetra auctor.</p>
+      <p>Guiding Innovation in Full Stack Web Development</p>
     </div>
   </div>
 
 
-  <div class="card-right" data-aos="fade-up">
+  <div class="card-right border" data-aos="fade-up">
     <div class="card-image">
       <img src='https://globisinsights.com/wp-content/uploads/2023/01/5-Ways-to-Improve-Your-Active-Listening-Skills-746x420.jpg'/>
     </div>
     <div class="card-text">
     <h5 className='fw-bold'>Active Listener</h5>
-      <p>Ut eu diam at pede suscipit sodales.</p>
+      <p>The Art of Listening: An Active Leader's Guide</p>
     </div>
   </div>
 
 
-  <div class="card-right" data-aos="fade-up">
+  <div class="card-right border" data-aos="fade-up">
     <div class="card-image">
     <img src='https://assets-global.website-files.com/61766c42e8e50c99a04fbd4b/62bf38493c10d5bd2a6f5bec_shutterstock_1151217977.jpg'/>
     </div>
     <div class="card-text">
         <h5 className='fw-bold'>Communication</h5>
-      <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
+      <p>Unlocking Success with Strong Communication Skills</p>
     </div>
   </div>
 
   
-  <div class="card-left" data-aos="fade-up">
+  <div class="card-left border" data-aos="fade-up">
     <div class="card-image">
       <img src='https://apolloafterschool.com/wp-content/uploads/2022/09/developing-critical-thinking-skills-in-kids.png'/>
     </div>
     <div class="card-text">
     <h5 className='fw-bold'>Critical Thinking</h5>
-      <p>Integer lacinia sollicitudin massa. Cras metus.</p>
+      <p>Critical Thinking: A Path to Problem Solving</p>
     </div>
   </div>
   {/* <div class="card-top">
@@ -202,7 +202,7 @@ const DIV = styled.div`
 	 width: 100%;
 	 border-radius: 95.2380952381px;
 	 box-shadow: 0px 3px 9px 1px rgba(0, 10, 20, 0.2);
-   border: 1px solid gray;
+   /* border: 1px solid white; */
 }
  .card-top {
 	 flex-direction: column;
@@ -278,7 +278,7 @@ const DIV = styled.div`
  .card-text p {
 	 margin: 0;
 	 line-height: 1.35em;
-	 color: #345;
+	 /* color: #345; */
 }
  @media (max-width: 500px) {
 	 .card-top {

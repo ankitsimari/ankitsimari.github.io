@@ -6,7 +6,7 @@ export default function Css() {
     <DIV data-aos="fade-up">
     <div className='skills-card'>
     <div className="boxCSS">
-      <div className="card_box_css">
+      <div className="card_box_css border">
         <span>
           <img
             className="techImgCSS skills-card-img"
@@ -43,7 +43,8 @@ const DIV = styled.div`
     height: 150px;
     border-radius: 20px;
     overflow: hidden;
-    background:white;
+       background:transparent;
+    /* border: 1px solid gray; */
     position: relative;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
     cursor: pointer;

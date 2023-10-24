@@ -36,18 +36,18 @@ export default function RoundedContact() {
     <div >
         <div className="main">
   <div className="up">
-    <button class="card1" onClick={LinkedIn}>
+    <button className="card1 border" onClick={LinkedIn}>
     <FaLinkedinIn className='w-100 fs-3 mt-3 ms-2 linkedIn ' />
     </button>
-    <button className="card2 " onClick={Phone}>
+    <button className="card2 border" onClick={Phone}>
    <AiOutlinePhone className='w-100 fs-3 mt-3 instagram ' />
     </button>
   </div>
   <div className="down" onClick={WhatsAap}>
-    <button className="card3">
+    <button className="card3 border">
 <FaWhatsapp className='w-100 fs-3 mb-3 ms-2 ' />
     </button>
-    <button className="card4" onClick={Email}>
+    <button className="card4 border" onClick={Email}>
         <HiOutlineMail className='w-100 fs-3 mb-3 instagram'/>
     </button>
   </div>

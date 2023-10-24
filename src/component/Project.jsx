@@ -18,7 +18,7 @@ const Projects = () => {
       <br />
       <div data-aos="fade-up"
         data-aos-delay="300"
-        data-aos-duration="1000" className="blog-card project-card">
+        data-aos-duration="1000" className="blog-card project-card border ">
         <div className="meta">
           <div
             className="photo"
@@ -26,7 +26,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://i.ibb.co/9Z9H2n5/doctor-Img.png" alt="" />
           </div>
         </div>
-        <div className="description text-black">
+        <div className="description ">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >MediCare</h1>
           <h2 className="project-tech-stack" >React | Bootstrap | Material UI</h2>
           <p className="project-description" >
@@ -45,7 +45,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade-up"
         data-aos-delay="300"
-        data-aos-duration="1000" className=" blog-card  project-card alt">
+        data-aos-duration="1000" className=" blog-card  project-card border alt">
         <div className="meta">
           <div
             className="photo "
@@ -53,7 +53,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://i.ibb.co/CKW8t9M/home.png" alt="" />
           </div>
         </div>
-        <div className="description text-black">
+        <div className="description ">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >EcoFood</h1>
           <h2 className="project-tech-stack">React | Redux | Material UI</h2>
           <p  className="project-description">
@@ -71,7 +71,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade-up"
         data-aos-delay="300"
-        data-aos-duration="1000" className="blog-card  project-card">
+        data-aos-duration="1000" className="blog-card  project-card border">
         <div className="meta">
           <div
             className="photo"
@@ -79,7 +79,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://i.ibb.co/frz0c3G/hh.png" alt="" />
           </div>
         </div>
-        <div className="description text-black">
+        <div className="description ">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >Learning Home</h1>
           <h2 className="project-tech-stack">HTML | CSS | JavaScript</h2>
           <p className="project-description">
@@ -98,7 +98,7 @@ const Projects = () => {
       </div>
       <div data-aos="fade-up"
         data-aos-delay="300"
-        data-aos-duration="1000" className=" blog-card alt project-card">
+        data-aos-duration="1000" className=" blog-card alt project-card border">
         <div className="meta">
           <div
             className="photo"
@@ -106,7 +106,7 @@ const Projects = () => {
             <img className="h-100 w-100" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="" />
           </div>
         </div>
-        <div className="description text-black">
+        <div className="description ">
           <h1 style={{ fontWeight: 'bold' }} className="project-title" >In Progress</h1>
           <h2 className="project-tech-stack">... | ... | ...</h2>
           <p className="project-description">
