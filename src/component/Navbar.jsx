@@ -4,8 +4,16 @@ import logo from "../Image/logo.png"
 import whiteLogo from "../Image/ZoomLogo.png"
 import ToggleBtn from "./ToggleBtn";
 import styled from "styled-components";
+import HamburgerIcon from "./HamburgerIcon";
 
 export default function ({handleChange}) {
+  function closeCollapsibleMenu() {
+    const navbarContent = document.getElementById("navbarSupportedContent");
+    if (navbarContent.classList.contains("show")) {
+      navbarContent.classList.remove("show");
+    }
+  }
+  
   return (
     <div>
       {/* themeBg class in nav to add background color */}
@@ -26,7 +34,8 @@ export default function ({handleChange}) {
 </label>
     </DIV>
           <button
-            className="navbar-toggler bg-white"
+          style={{position:"absolute",right:"10px"}}
+            className="border-0 d-lg-none bg-transparent"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -34,7 +43,8 @@ export default function ({handleChange}) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <HamburgerIcon/>
+            {/* <span className="navbar-toggler-icon text-white"></span> */}
           </button>
         </div>
         <div
@@ -47,12 +57,13 @@ export default function ({handleChange}) {
                 className="nav-link home fw-bold themeColor"
                 aria-current="page"
                 href="#"
+                onClick={closeCollapsibleMenu}
               >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link about fw-bold themeColor" href="#about">
+              <a className="nav-link about fw-bold themeColor" href="#about"  onClick={closeCollapsibleMenu}>
                 About
               </a>
             </li>
@@ -61,6 +72,7 @@ export default function ({handleChange}) {
                 className="nav-link skills fw-bold themeColor"
                 aria-disabled="true"
                 href="#skills"
+                onClick={closeCollapsibleMenu}
               >
                 Skills
               </a>
@@ -70,6 +82,7 @@ export default function ({handleChange}) {
                 className="nav-link projects fw-bold themeColor"
                 aria-disabled="true"
                 href="#projects"
+                onClick={closeCollapsibleMenu}
               >
                 Projects
               </a>
@@ -79,6 +92,7 @@ export default function ({handleChange}) {
                 className="nav-link contact fw-bold themeColor"
                 aria-disabled="true"
                 href="#contact "
+                onClick={closeCollapsibleMenu}
               >
                 Contact
               </a>
