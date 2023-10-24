@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineHtml5 } from 'react-icons/ai'
 import styled from 'styled-components'
 
 export default function Html() {
@@ -8,11 +9,12 @@ export default function Html() {
     <div className="boxCSS">
       <div className="card_box_css border">
         <span>
-          <img
+          <AiOutlineHtml5 className='techImgCSS ' style={{fontSize:"130px",color:"#EE6028"}}/>
+          {/* <img
             className="techImgCSS skills-card-img"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlgfzIIrB4Dpcr6tzGi50pTSfVeFs9_OvIiAu3VGyeaZRuMW-C0CrW-LbMzzfmEtCeyM&usqp=CAU"
             alt=""
-          />
+          /> */}
         </span>
       </div>
     </div>

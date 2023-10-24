@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { SiJavascript } from 'react-icons/si'
 export default function JavaScript() {
   return (
     <DIV data-aos="fade-up">
@@ -8,11 +8,12 @@ export default function JavaScript() {
     <div className="boxCSS">
       <div className="card_box_css border">
         <span>
-          <img
+          {/* <img
             className="techImgCSS skills-card-img"
             src="https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg"
             alt=""
-          />
+          /> */}
+           <SiJavascript className='techImgCSS ' style={{fontSize:"130px",color:"#FDD93C"}}/>
         </span>
       </div>
     </div>
