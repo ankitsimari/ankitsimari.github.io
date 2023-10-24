@@ -4,8 +4,8 @@ import SocialMedia from "./SocialMedia";
 
 export default function HeroSection() {
   return (
-    <div className="container mb-lg-0 pt-4" id="home">
-      <div className="row d-flex flex-row-reverse ">
+    <div className="container mb-5 mb-lg-0 pt-5" id="home">
+      <div className="row d-flex flex-row-reverse mt-3 mt-lg-0">
 
 
 
@@ -13,7 +13,7 @@ export default function HeroSection() {
           <img 
             // src={roundImg}
             src="https://i.ibb.co/4PZ4Q4q/RoundPic.png"
-            className="w-100 h-100 rounded-circle posterImg home-img"
+            className="w-100 h-100 rounded-circle posterImg home-img "
          
             alt=""
           />

@@ -21,7 +21,7 @@ function App() {
 console.log(state)
   // style={{backgroundColor:"rgb(244, 244, 244)"}}
   return (
-    <div className="App " style={{backgroundColor:state?"rgb(244, 244, 244)":"black",color:state?"":"white"}} >
+    <div className="App " style={{backgroundColor:state?"black":"rgb(244, 244, 244)",color:state?"white":""}} >
       <Navbar handleChange={handleChange} />
       <HeroSection />
       <About />
