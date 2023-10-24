@@ -8,7 +8,7 @@ export default function About() {
     <div className='about section container-fluid  p-3  py-lg-3 ' id="about">
         <div className="row justify-content-center">
           <h2 className='text-center fs-2 fw-bold' id="user-detail-name">About <span className='themeColor'>Me</span></h2>
-            <div className='col-md-11 ms-4 ms-lg-0 p-2 ps-lg-5' >
+            <div className='col-md-11 ms-lg-0 p-2 ps-lg-5' >
            
                 <p className='fs-5 text-center p-2 px-3 px-lg-5' id="user-detail-intro">Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies. Skilled in the MERN stack and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization's goal. </p>
                 <span className='d-flex justify-content-center'>

@@ -18,7 +18,7 @@ const Projects = () => {
         My <span className="themeColor">Projects</span>
       </h1>
       <br />
-      <div data-aos="fade-right"
+      <div data-aos="fade-up"
         data-aos-delay="300"
         data-aos-duration="1000" className="blog-card project-card">
         <div className="meta">
@@ -45,7 +45,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div data-aos="fade-right"
+      <div data-aos="fade-up"
         data-aos-delay="300"
         data-aos-duration="1000" className=" blog-card  project-card alt">
         <div className="meta">
@@ -71,7 +71,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div data-aos="fade-right"
+      <div data-aos="fade-up"
         data-aos-delay="300"
         data-aos-duration="1000" className="blog-card  project-card">
         <div className="meta">
@@ -98,7 +98,7 @@ const Projects = () => {
           </p>
         </div>
       </div>
-      <div data-aos="fade-right"
+      <div data-aos="fade-up"
         data-aos-delay="300"
         data-aos-duration="1000" className=" blog-card alt project-card">
         <div className="meta">
