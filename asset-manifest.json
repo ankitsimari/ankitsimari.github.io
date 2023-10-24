@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c27d9a9d.css",
-    "main.js": "/static/js/main.f25c17f9.js",
+    "main.css": "/static/css/main.5b6bc577.css",
+    "main.js": "/static/js/main.2032d93b.js",
     "static/js/787.e8c6061e.chunk.js": "/static/js/787.e8c6061e.chunk.js",
     "static/media/Ankit.pdf": "/static/media/Ankit.6afd69926e000e8e4960.pdf",
+    "static/media/PlaneImg1.png": "/static/media/PlaneImg1.40bd63ce9c8dc739d9d8.png",
+    "static/media/graph.png": "/static/media/graph.50c0d5abccf67b486ba8.png",
     "static/media/logo.png": "/static/media/logo.d66252700bf515807836.png",
     "static/media/ZoomLogo.png": "/static/media/ZoomLogo.cd8e01142bce4639d14a.png",
     "index.html": "/index.html",
-    "main.c27d9a9d.css.map": "/static/css/main.c27d9a9d.css.map",
-    "main.f25c17f9.js.map": "/static/js/main.f25c17f9.js.map",
+    "main.5b6bc577.css.map": "/static/css/main.5b6bc577.css.map",
+    "main.2032d93b.js.map": "/static/js/main.2032d93b.js.map",
     "787.e8c6061e.chunk.js.map": "/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c27d9a9d.css",
-    "static/js/main.f25c17f9.js"
+    "static/css/main.5b6bc577.css",
+    "static/js/main.2032d93b.js"
   ]
 }
