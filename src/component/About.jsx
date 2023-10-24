@@ -1,6 +1,5 @@
 import React from 'react'
 import {FaPhoneAlt,FaMailBulk,FaGithub,FaLinkedin,FaInstagram,FaTwitterSquare, FaFacebookMessenger, FaGitAlt} from 'react-icons/fa'
-import PDF from "../Image/Ankit.pdf"
 
 export default function About() {
   return (
@@ -10,7 +9,7 @@ export default function About() {
           <h2 className='text-center fs-2 fw-bold' id="user-detail-name">About <span className='themeColor'>Me</span></h2>
             <div className='col-md-11 ms-lg-0 p-2 ps-lg-5' >
            
-                <p className='fs-5 text-center p-2 px-3 px-lg-5' id="user-detail-intro">Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies. Skilled in the MERN stack and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization's goal. </p>
+                <p  className='fs-5 text-center p-2 px-3 px-lg-5' id="user-detail-intro" data-aos="fade-up" >Passionate Full Stack Web Developer with a robust command of Frontend and Backend technologies. Skilled in the MERN stack and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization's goal. </p>
                 <span className='d-flex justify-content-center'>
 
                 {/* <a className="nav-link resume fw-bold text-black btn " target='_blank' href={PDF} id="resume-button-2">
@@ -20,7 +19,7 @@ export default function About() {
                 </span>
                 <div className='d-flex justify-content-evenly flex-wrap gap-2 mt-4 text-black' >
 
-                  <div className='bg-white p-3 px-5 rounded aboutCard text-center shadow' >
+                  <div className='bg-white p-3 px-5 rounded aboutCard text-center shadow' data-aos="fade-up">
                     <span className='text-center rounded-circle'>
                      <div>
                      <FaPhoneAlt className='mt-3 text-white'/>
@@ -37,7 +36,7 @@ export default function About() {
                   </div>
 
 
-                  <div className='bg-white p-3 px-5 rounded aboutCard shadow'>
+                  <div className='bg-white p-3 px-5 rounded aboutCard shadow' data-aos="fade-up">
                   <span className='text-center rounded-circle'>
                      <div>
                      <FaGitAlt className='mt-2 pt-1 fs-3 w-1 text-white'/>
@@ -54,7 +53,7 @@ export default function About() {
                   </div>
 
 
-                  <div className='bg-white p-3 px-5 rounded aboutCard shadow'>
+                  <div className='bg-white p-3 px-5 rounded aboutCard shadow' data-aos="fade-up">
                   <span className='text-center rounded-circle'>
                      <div>
                      <FaFacebookMessenger className='mt-3 fs-5 text-white'/>

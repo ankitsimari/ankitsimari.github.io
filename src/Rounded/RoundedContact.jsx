@@ -4,7 +4,7 @@ import {FaLinkedinIn,FaInstagram, FaWhatsapp, FaTwitterSquare} from 'react-icons
 
 export default function RoundedContact() {
   return (
-    <div>
+    <div >
         <div class="main">
   <div class="up">
     <button class="card1">

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export default function AOS() {
   return (
-    <DIV>
+    <DIV data-aos="fade-up">
     <div className='skills-card'>
     <div className="boxCSS">
       <div className="card_box_css">

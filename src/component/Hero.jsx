@@ -1,20 +1,21 @@
 import React from "react";
 import Button from "./Button";
 import SocialMedia from "./SocialMedia";
+import IMG from "../Image/PlaneImg1.png"
 
-export default function HeroSection() {
+export default function Hero() {
   return (
     <div className="container mb-5 mb-lg-0 pt-lg-2 pt-4 " id="home">
       <div className="row d-flex flex-row-reverse pt-4 mt-3 mt-lg-0 ">
 
 
 
-        <div className="col-md-5 d-flex justify-content-center my-2 my-lg-5">
+        <div className="col-md-5 d-flex justify-content-center backgroundIMG my-2 my-lg-5">
           <img 
-            // src={roundImg}
-            src="https://i.ibb.co/4PZ4Q4q/RoundPic.png"
-            className="h-100 mt-2 rounded-circle posterImg home-img "
-            style={{width:"85%"}}
+            src={IMG}
+            // src="https://i.ibb.co/4PZ4Q4q/RoundPic.png"
+            className="mt-2 w-75 h-100 rounded-circle posterImg home-img "
+         
             alt=""
           />
         </div>

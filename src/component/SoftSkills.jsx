@@ -6,7 +6,9 @@ export default function SoftSkills() {
     <DIV>
             <h2 className='fs-2 fw-bold text-center my-5 pt-5'>Soft <span className='themeColor'>Skills</span></h2>
         <div class="container mt-3 mb-5">
-  <div class="card-left">
+
+
+  <div class="card-left" data-aos="fade-up">
     <div class="card-image">
       <img src='https://kissflow.com/hubfs/What-is-Collaboration-768x407.jpg'/>
     </div>
@@ -15,7 +17,9 @@ export default function SoftSkills() {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
   </div>
-  <div class="card-top">
+
+
+  <div class="card-top" data-aos="fade-up">
     <div class="card-image">
       <img src='https://theincmagazine.com/wp-content/uploads/2021/10/practicing_the_art_of_leadership-header.png'/>
     </div>
@@ -24,7 +28,9 @@ export default function SoftSkills() {
       <p>Quisque cursus, metus vitae pharetra auctor.</p>
     </div>
   </div>
-  <div class="card-right">
+
+
+  <div class="card-right" data-aos="fade-up">
     <div class="card-image">
       <img src='https://globisinsights.com/wp-content/uploads/2023/01/5-Ways-to-Improve-Your-Active-Listening-Skills-746x420.jpg'/>
     </div>
@@ -33,13 +39,26 @@ export default function SoftSkills() {
       <p>Ut eu diam at pede suscipit sodales.</p>
     </div>
   </div>
-  <div class="card-right">
+
+
+  <div class="card-right" data-aos="fade-up">
     <div class="card-image">
     <img src='https://assets-global.website-files.com/61766c42e8e50c99a04fbd4b/62bf38493c10d5bd2a6f5bec_shutterstock_1151217977.jpg'/>
     </div>
     <div class="card-text">
         <h5 className='fw-bold'>Communication</h5>
       <p>Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.</p>
+    </div>
+  </div>
+
+  
+  <div class="card-left" data-aos="fade-up">
+    <div class="card-image">
+      <img src='https://apolloafterschool.com/wp-content/uploads/2022/09/developing-critical-thinking-skills-in-kids.png'/>
+    </div>
+    <div class="card-text">
+    <h5 className='fw-bold'>Critical Thinking</h5>
+      <p>Integer lacinia sollicitudin massa. Cras metus.</p>
     </div>
   </div>
   {/* <div class="card-top">
@@ -87,15 +106,7 @@ export default function SoftSkills() {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
   </div> */}
-  <div class="card-left">
-    <div class="card-image">
-      <img src='https://apolloafterschool.com/wp-content/uploads/2022/09/developing-critical-thinking-skills-in-kids.png'/>
-    </div>
-    <div class="card-text">
-    <h5 className='fw-bold'>Critical Thinking</h5>
-      <p>Integer lacinia sollicitudin massa. Cras metus.</p>
-    </div>
-  </div>
+
   {/* <div class="card-left">
     <div class="card-image">
       <img src='https://apolloafterschool.com/wp-content/uploads/2022/09/developing-critical-thinking-skills-in-kids.png'/>

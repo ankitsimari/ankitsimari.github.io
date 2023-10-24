@@ -77,10 +77,10 @@ export default function Contact() {
     <div className="container-fluid py-4 " id="contact">
       <h2 className="text-center me-lg-5 fs-2 fw-bold">Contact <span className="themeColor">Me</span> </h2>
       <div className="row py-4 ">
-        <div className="col-md-6 d-flex justify-content-center align-items-center">
+        <div className="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up">
           <RoundedContact />
         </div>
-        <div className="col-md-6  mt-5 mt-lg-0">
+        <div className="col-md-6  mt-5 mt-lg-0" data-aos="fade-up">
           <form className="" ref={form} onSubmit={sendEmail}>
             <h3 className="text-center text-lg-start mb-4">Connect with me</h3>
             <input

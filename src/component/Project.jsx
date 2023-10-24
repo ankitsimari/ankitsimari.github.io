@@ -7,12 +7,10 @@ import {TbWorldShare} from "react-icons/tb"
 
 const Projects = () => {
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
 
   return (
-    <div id="projects ">
+    <div id="projects">
     <div className=" p-4" >
       <h1 className="name text-center fs-2 fw-bold">
         My <span className="themeColor">Projects</span>

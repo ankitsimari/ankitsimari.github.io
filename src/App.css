@@ -87,6 +87,13 @@ overflow-x: hidden;
   width: 300px;
 }
 
+.backgroundIMG{
+  background-image: url("./Image/graph.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .aboutCard{
   width: 300px;
   margin-top: 40px;

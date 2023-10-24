@@ -10,8 +10,16 @@ import GitStats from "./component/GitStats";
 import SoftSkills from "./component/SoftSkills";
 import NewProjects from "./component/NewProjects";
 import { useState } from "react";
+import Hero from "./component/Hero";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(()=>{
+    AOS.init({duration:1000})
+    },[])
 
   const [state,setState]= useState(false);
 
@@ -24,6 +32,7 @@ console.log(state)
     <div className="App " style={{backgroundColor:state?"black":"rgb(244, 244, 244)",color:state?"white":""}} >
       <Navbar handleChange={handleChange} />
       <HeroSection />
+      {/* <Hero/> */}
       <About />
       <TeckSkills />
       <SoftSkills />
