@@ -1,25 +1,54 @@
 import React from 'react'
 import "./RoundedContact.css";
 import {FaLinkedinIn,FaInstagram, FaWhatsapp, FaTwitterSquare} from 'react-icons/fa'
+import {AiOutlinePhone} from 'react-icons/ai'
+import {HiOutlineMail} from 'react-icons/hi'
 
 export default function RoundedContact() {
+  const LinkedIn = () => {
+    window.open(
+      "https://www.linkedin.com/in/ankit-kumar-747786235/",
+      "_blank"
+    )}
+
+    
+  const Phone = () => {
+    window.open(
+      "tel:+919576508805",
+      "_blank"
+    )}
+
+  const WhatsAap = () => {
+    window.open(
+      "https://wa.me/+919576508805",
+      "_blank"
+    )}
+
+  const Email = () => {
+    window.open(
+      "mailto:erankkrs@gmail.com",
+      "_blank"
+    )}
+
+
+
   return (
     <div >
-        <div class="main">
-  <div class="up">
-    <button class="card1">
+        <div className="main">
+  <div className="up">
+    <button class="card1" onClick={LinkedIn}>
     <FaLinkedinIn className='w-100 fs-3 mt-3 ms-2 linkedIn ' />
     </button>
-    <button class="card2 ">
-   <FaTwitterSquare className='w-100 fs-3 mt-3 instagram'/>
+    <button className="card2 " onClick={Phone}>
+   <AiOutlinePhone className='w-100 fs-3 mt-3 instagram ' />
     </button>
   </div>
-  <div class="down">
-    <button class="card3">
+  <div className="down" onClick={WhatsAap}>
+    <button className="card3">
 <FaWhatsapp className='w-100 fs-3 mb-3 ms-2 ' />
     </button>
-    <button class="card4">
-        <FaInstagram className='w-100 fs-3 mb-3 instagram'/>
+    <button className="card4" onClick={Email}>
+        <HiOutlineMail className='w-100 fs-3 mb-3 instagram'/>
     </button>
   </div>
 </div>

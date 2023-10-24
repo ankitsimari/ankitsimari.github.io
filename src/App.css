@@ -26,18 +26,17 @@ overflow-x: hidden;
 
 .nav-link:hover{
   /* border-bottom: 3px solid rgb(205, 200, 200); */
-  border-bottom: 3px solid white;
+  color: #f96f0e;
+  border-bottom: 3px solid #f96f0e;
 
 }
 
 .nav-link.active {
-  color: white !important;
-  border-bottom: 2px solid white;
-  background-color: transparent;
+  color: #f96f0e;
 }
 
 .active-button {
-  border-bottom: 2px solid white;
+  color: #f96f0e;
 }
 
 .heroTitle {
@@ -308,7 +307,7 @@ margin: auto;
 
 .wrapper .instagram:hover span,
 .wrapper .instagram:hover .tooltip {
-  background: #e1306c;
+  /* background: #e1306c; */
 }
 
 .wrapper .twitter:hover span,

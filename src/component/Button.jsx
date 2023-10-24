@@ -6,7 +6,6 @@ export default function Button() {
     window.open(
       PDF,
       "_blank"
-      
     );
   };
   return (

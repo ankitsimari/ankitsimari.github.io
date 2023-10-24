@@ -52,13 +52,8 @@ export default function ({handleChange}) {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav mb-2 mb-lg-0 me-lg-5">
-            <li className="nav-item">
-              <a
-                className="nav-link home fw-bold themeColor"
-                aria-current="page"
-                href="#"
-                onClick={closeCollapsibleMenu}
-              >
+          <li className="nav-item">
+              <a className="nav-link about fw-bold themeColor" href="#home"  onClick={closeCollapsibleMenu}>
                 Home
               </a>
             </li>
