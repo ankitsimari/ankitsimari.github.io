@@ -358,6 +358,9 @@ padding: 20px 50px;
     place-items: center;
     padding: 10px;
   }
+  #home{
+    padding-top: 20px !important;
+  }
   .github_Stats img{
     width: 80%;
   }

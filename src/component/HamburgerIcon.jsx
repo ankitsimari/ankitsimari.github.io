@@ -49,7 +49,7 @@ const DIV = styled.div`
   margin-left: 13px;
 } */
 
-#checkbox:checked + .toggle #bar2 {
+/* #checkbox:checked + .toggle #bar2 {
   transform: translateY(14px) rotate(60deg);
   margin-left: 0;
   transform-origin: right;
@@ -66,7 +66,7 @@ const DIV = styled.div`
 
 #checkbox:checked + .toggle {
   transform: rotate(-90deg);
-}
+} */
 /* #checkbox:checked + .toggle #bar3 {
   transform: rotate(90deg);
   transition-duration: .3s;
