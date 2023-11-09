@@ -33,7 +33,7 @@ console.log(state)
   // style={{backgroundColor:"rgb(244, 244, 244)"}}
   return (
     <div className="App " style={{backgroundColor:state?"black":"rgb(244, 244, 244)",color:state?"white":""}} >
-      <Navbar handleChange={handleChange} icon={state?<BsFillSunFill className="fs-4 themeColor"/>:<BiMoon className="fs-4 themeColor"/>} mobile={state?<BsFillSunFill className="fs-2 themeColor"/>:<BiMoon className="fs-1 themeColor"/>} />
+      <Navbar handleChange={handleChange} icon={state?<BsFillSunFill className="fs-4 themeColor"/>:<BiMoon className="fs-4 themeColor"/>} mobile={!state?<BsFillSunFill className="fs-2 themeColor"/>:<BiMoon className="fs-1 themeColor"/>} />
       <HeroSection />
       {/* <Hero/> */}
       <About />
