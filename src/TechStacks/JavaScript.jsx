@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { SiJavascript } from 'react-icons/si'
+import { IoLogoJavascript } from 'react-icons/io'
+
 export default function JavaScript() {
   return (
     <DIV data-aos="fade-up">
@@ -13,7 +15,8 @@ export default function JavaScript() {
             src="https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg"
             alt=""
           /> */}
-           <SiJavascript className='techImgCSS ' style={{fontSize:"130px",color:"#FDD93C"}}/>
+           {/* <SiJavascript className='techImgCSS ' style={{fontSize:"130px",color:"#f1960d"}}/> */}
+           <IoLogoJavascript className='techImgCSS ' style={{fontSize:"130px",color:"#f1960d"}}/>
         </span>
       </div>
     </div>

@@ -14,6 +14,7 @@ import ReactJs from '../TechStacks/ReactJs'
 import Git from '../TechStacks/Git'
 import Github from '../TechStacks/Github'
 import AOS from '../TechStacks/AOS'
+import Tailwind from '../TechStacks/Tailwind'
 
 
 
@@ -37,8 +38,9 @@ export default function TeckSkills() {
 <Redux/>
 <TypeScript/>
 <Bootstrap/>
+<Tailwind/>
 <MaterialUI/>
-<AOS/>
+{/* <AOS/> */}
 <Chart/>
 <Git/>
 <Github/>

@@ -1,18 +1,18 @@
 import React from 'react'
+import { SiTailwindcss } from 'react-icons/si'
 import styled from 'styled-components'
-import {SiExpress} from "react-icons/si"
 
-export default function Express() {
+export default function Tailwind() {
   return (
     <DIV data-aos="fade-up">
     <div className='skills-card'>
     <div className="boxCSS">
       <div className="card_box_css border">
         <span>
-        <SiExpress className='techImgCSS fw-bold' style={{fontSize:"100px"}}/>
+          <SiTailwindcss className='techImgCSS ' style={{fontSize:"100px",color:"rgb(54,183,240)"}}/>
           {/* <img
             className="techImgCSS skills-card-img"
-            src="https://miro.medium.com/v2/resize:fit:1200/1*5y334csCSm6P4ISP4uYzhg.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlgfzIIrB4Dpcr6tzGi50pTSfVeFs9_OvIiAu3VGyeaZRuMW-C0CrW-LbMzzfmEtCeyM&usqp=CAU"
             alt=""
           /> */}
         </span>
@@ -46,7 +46,6 @@ const DIV = styled.div`
     border-radius: 20px;
     overflow: hidden;
        background:transparent;
-    /* border: 1px solid gray; */
     position: relative;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
     cursor: pointer;
@@ -70,7 +69,7 @@ const DIV = styled.div`
   }
 
   .card_box_css span::before {
-    content: "Express Js";
+    content: "Tailwind";
     position: absolute;
     width: 150%;
     height: 33px;
@@ -86,7 +85,7 @@ const DIV = styled.div`
     justify-content: center;
     color: #fff;
     font-weight: 600;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
   }
