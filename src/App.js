@@ -15,6 +15,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import NewFooter from "./component/NewFooter";
+import {BsFillSunFill} from "react-icons/bs"
+import {BiMoon} from "react-icons/bi"
 
 function App() {
 
@@ -31,7 +33,7 @@ console.log(state)
   // style={{backgroundColor:"rgb(244, 244, 244)"}}
   return (
     <div className="App " style={{backgroundColor:state?"black":"rgb(244, 244, 244)",color:state?"white":""}} >
-      <Navbar handleChange={handleChange} />
+      <Navbar handleChange={handleChange} icon={state?<BsFillSunFill className="fs-3 themeColor"/>:<BiMoon className="fs-3 themeColor"/>} mobile={!state?<BsFillSunFill className="fs-1 themeColor"/>:<BiMoon className="fs-1 themeColor"/>} />
       <HeroSection />
       {/* <Hero/> */}
       <About />

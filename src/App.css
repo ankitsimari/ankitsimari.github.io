@@ -7,6 +7,10 @@ font-family: 'Poppins', sans-serif;
 overflow-x: hidden;
 }
 
+#home{
+  padding-top: 40px !important;
+}
+
 .navbar{
   position: fixed;
   top: 0px;
