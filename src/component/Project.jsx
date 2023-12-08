@@ -23,21 +23,21 @@ const Projects = () => {
           <div
             className="photo"
           >
-            <img className="h-100 w-100" src="https://i.ibb.co/9Z9H2n5/doctor-Img.png" alt="" />
+            <img className="h-100 w-100" src="https://github.com/ankitsimari/TalentTech/blob/main/Frontend/src/assets/Page1.png?raw=true" alt="" />
           </div>
         </div>
         <div className="description ">
-          <h1 style={{ fontWeight: 'bold' }} className="project-title" >MediCare</h1>
-          <h2 className="project-tech-stack" >React | Bootstrap | Material UI</h2>
+          <h1 style={{ fontWeight: 'bold' }} className="project-title" >TALENTTECH</h1>
+          <h2 className="project-tech-stack" >React | Redux | TypeScript | OpenAI-api | Express | MongoDB | Tailwind Css</h2>
           <p className="project-description" >
             {" "}
-            MediCare is an online platform designed to simplify the process of booking appointments with doctors. Our website aims to bridge the gap between patients and healthcare providers, offering a user-friendly experience for all.
+            I created an AI-interviewer website transforming hiring with automated interviews, dynamic topic selection, post-interview scoring, and integrated Chart.js for feedback and evaluation
           </p>
           <p className="read-more">
-            <a className="project-deployed-link" href="https://teal-board-7169-ankit-doc-web.vercel.app/" target="_blank">
+            <a className="project-deployed-link" href="https://talent-tech-psi.vercel.app/" target="_blank">
           <TbWorldShare className="fs-2"/>
             </a>
-            <a className="project-github-link" href="https://github.com/ankitsimari/teal-board-7169" target="_blank">
+            <a className="project-github-link" href="https://github.com/ankitsimari/TalentTech" target="_blank">
           <BsGithub className="fs-2"/>
             </a>
           </p>
@@ -71,6 +71,34 @@ const Projects = () => {
       </div>
       <div data-aos="fade-up"
         data-aos-delay="300"
+        data-aos-duration="1000" className="blog-card project-card border ">
+        <div className="meta">
+          <div
+            className="photo"
+          >
+            <img className="h-100 w-100" src="https://i.ibb.co/9Z9H2n5/doctor-Img.png" alt="" />
+          </div>
+        </div>
+        <div className="description ">
+          <h1 style={{ fontWeight: 'bold' }} className="project-title" >MediCare</h1>
+          <h2 className="project-tech-stack" >React | Bootstrap | Material UI</h2>
+          <p className="project-description" >
+            {" "}
+            MediCare is an online platform designed to simplify the process of booking appointments with doctors. Our website aims to bridge the gap between patients and healthcare providers, offering a user-friendly experience for all.
+          </p>
+          <p className="read-more">
+            <a className="project-deployed-link" href="https://teal-board-7169-ankit-doc-web.vercel.app/" target="_blank">
+          <TbWorldShare className="fs-2"/>
+            </a>
+            <a className="project-github-link" href="https://github.com/ankitsimari/teal-board-7169" target="_blank">
+          <BsGithub className="fs-2"/>
+            </a>
+          </p>
+        </div>
+      </div>
+  
+      {/* <div data-aos="fade-up"
+        data-aos-delay="300"
         data-aos-duration="1000" className="blog-card  project-card border">
         <div className="meta">
           <div
@@ -95,7 +123,7 @@ const Projects = () => {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
       <div data-aos="fade-up"
         data-aos-delay="300"
         data-aos-duration="1000" className=" blog-card alt project-card border">
