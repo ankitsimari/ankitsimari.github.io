@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.82cb6b1f.css",
-    "main.js": "/static/js/main.b51fb2f9.js",
+    "main.js": "/static/js/main.471be24a.js",
     "static/js/787.90ce30d7.chunk.js": "/static/js/787.90ce30d7.chunk.js",
-    "static/media/Ankit-Kumar-Resume.pdf": "/static/media/Ankit-Kumar-Resume.89831d27db3acb04f4d6.pdf",
+    "static/media/Ankit-Kumar-Resume.pdf": "/static/media/Ankit-Kumar-Resume.0d9de5f7d5b99ed4fc8f.pdf",
     "static/media/PlaneImg1.png": "/static/media/PlaneImg1.40bd63ce9c8dc739d9d8.png",
     "static/media/graph.png": "/static/media/graph.50c0d5abccf67b486ba8.png",
     "static/media/logo.png": "/static/media/logo.d66252700bf515807836.png",
     "static/media/ZoomLogo.png": "/static/media/ZoomLogo.cd8e01142bce4639d14a.png",
     "index.html": "/index.html",
     "main.82cb6b1f.css.map": "/static/css/main.82cb6b1f.css.map",
-    "main.b51fb2f9.js.map": "/static/js/main.b51fb2f9.js.map",
+    "main.471be24a.js.map": "/static/js/main.471be24a.js.map",
     "787.90ce30d7.chunk.js.map": "/static/js/787.90ce30d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82cb6b1f.css",
-    "static/js/main.b51fb2f9.js"
+    "static/js/main.471be24a.js"
   ]
 }
