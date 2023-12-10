@@ -111,7 +111,7 @@ export default function ({ handleChange, icon, mobile }) {
                 target="_blank"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/15AzYQSphkuaCpuJYV7uR1BsgJZEDO0Ef/view?usp=sharing",
+                    "https://drive.google.com/file/d/1ppRE2gLoDp0ZcydmY-SQEgRutqy7pL4R/view?usp=sharing",
                     "_blank"
                   )
                 }
