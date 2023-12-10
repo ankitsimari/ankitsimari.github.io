@@ -17,6 +17,7 @@ export default function Button() {
           "_blank"
         )
       }
+      download
       href={PDF}
       id="resume-button-2"
     >
