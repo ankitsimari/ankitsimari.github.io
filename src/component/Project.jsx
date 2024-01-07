@@ -124,7 +124,7 @@ const Projects = () => {
           </p>
         </div>
       </div> */}
-      <div data-aos="fade-up"
+      {/* <div data-aos="fade-up"
         data-aos-delay="300"
         data-aos-duration="1000" className=" blog-card alt project-card border">
         <div className="meta">
@@ -149,7 +149,7 @@ const Projects = () => {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
     </div>
   );
