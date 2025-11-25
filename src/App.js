@@ -41,7 +41,7 @@ console.log(state)
       <SoftSkills />
       <Project />
       {/* <NewProjects/> */}
-      <GitStats />
+      {/* <GitStats /> */}
       <Contact />
       {/* <Footer /> */}
       <NewFooter/>
